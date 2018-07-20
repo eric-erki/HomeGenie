@@ -820,6 +820,10 @@ self.__precacheManifest = [
     "revision": "53bd8464c8858d9921242dd09d84d607"
   },
   {
+    "url": "api/mig/css/bootstrap-doc.css",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
     "url": "api/mig/css/bootstrap-responsive.css",
     "revision": "871defe8c1a928bcbcc3efcf4a1dde42"
   },
@@ -836,8 +840,16 @@ self.__precacheManifest = [
     "revision": "a987f72342eeaece278982a377eca816"
   },
   {
+    "url": "api/mig/includes/header.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
     "url": "api/mig/includes/sidemenu.html",
     "revision": "c4b7fd0ff255e83e18501544681d133d"
+  },
+  {
+    "url": "api/mig/js/bootstrap.js",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/mig/js/common_includes.js",
@@ -897,7 +909,7 @@ self.__precacheManifest = [
   },
   {
     "url": "app/layout/header.css",
-    "revision": "8df0eb860c55cbac6e1c887c9cbd86cf"
+    "revision": "e28dab5c3bbe9109aafe8d9070994d35"
   },
   {
     "url": "app/layout/header.html",
@@ -1009,7 +1021,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "75b68b01e7e1f5164099473e79fec680"
+    "revision": "c54cba7f35dcae74cc019146699261b9"
   },
   {
     "url": "index.js",
@@ -1989,7 +2001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "source/app/layout/header.css",
-    "revision": "8df0eb860c55cbac6e1c887c9cbd86cf"
+    "revision": "e28dab5c3bbe9109aafe8d9070994d35"
   },
   {
     "url": "source/app/layout/header.html",
@@ -2037,7 +2049,7 @@ self.__precacheManifest = [
   },
   {
     "url": "source/index.html",
-    "revision": "0838c0d17ed215fa519f5da8aa7904cf"
+    "revision": "55c2c52a979d9eab7919483a99de8a71"
   },
   {
     "url": "source/index.js",
@@ -2256,6 +2268,10 @@ self.__precacheManifest = [
     "revision": "d5a3e094c590d5113232b74cd902f58f"
   },
   {
+    "url": "api/mig/ico/apple-touch-icon-114-precomposed.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
     "url": "api/mig/ico/apple-touch-icon-144-precomposed.png",
     "revision": "55e3b458c3769678da35e82ab498834d"
   },
@@ -2289,27 +2305,27 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "3f71d5abba7bdd1b5ac065c792714819"
+    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "21b36318ea414faa3dbc3821e977bc25"
+    "revision": "02414f49ad13c7889bc8754ff114c5f0"
   },
   {
     "url": "images/docs/configure_menu.jpg",
-    "revision": "228deba0785cfbf7aa4e62e7b59e6316"
+    "revision": "835c8a9997ccdd102ebd019f6503612c"
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "9f768b1a778e1110053c112b22c7553d"
+    "revision": "967eb447c7d749a286723c51bd262903"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "c1b3aa62205898f3d1157ce2b21ae663"
+    "revision": "efd5c0e7d47fc340d6e15bbbb6d25f9d"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "45511dbbd1733c184f33cf72a2604fa5"
+    "revision": "77f1fc6539a33329df9885a21f1c829d"
   },
   {
     "url": "images/docs/groups_add_group.jpg",

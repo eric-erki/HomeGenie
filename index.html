@@ -69,6 +69,19 @@
 /*{% endraw %}*/
 </style>
 
+    <!-- HomeGenie logo fonts -->
+    <style>
+/*{% raw %}*/
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
+}
+
+/*{% endraw %}*/
+</style>
+
     <!-- Material icons and theme -->
     <style>
 /*{% raw %}*/
@@ -1345,7 +1358,7 @@ function hideHeader() {
   },
   {
     "componentId": "layout/header",
-    "css": ". {\n    position: fixed;\n    left: 0;\n    right: 0;\n    z-index: 10;\n}\n\n.first-row {\n    height: 64px;\n    width: 100%;\n}\n.second-row {\n    font-size: 80%;\n    height: 32px;\n    width: 100%;\n    text-align: center;\n    text-transform: uppercase;\n    display: none;\n}\n\n.title .menu-toggle {\n    width: 56px;\n    text-align: center;\n    margin-right: 8px;\n    cursor: pointer;\n}\n.channels {\n    margin-right: 16px;\n    font-size:120%;\n}\n\n.logo {\n    font-family: 'Roboto Condensed', serif !important;\n    font-weight: 400;\n    font-size: 200%;\n    line-height: 200%;\n    padding-left: 16px;\n    padding-right: 16px;\n}\n.logo-caption {\n    font-size: 80%;\n}\n\n.subtitle {\n    font-size: 120%;\n    line-height: 200%;\n    padding-left: 16px;\n    padding-right: 16px;\n}\n\ndiv[data-ui-field=\"header-roller\"] {\n    position: absolute;\n    left:0;right:0;bottom:0;\n    height: 32px;\n    text-align: center;\n}\n\n@media only screen and (max-width: 640px) {\n    .logo {\n        font-size: 160%;\n    }\n    .subtitle {\n        font-size: 110%;\n    }\n}\n@media only screen and (max-width: 800px) {\n    .second-row {\n        display: block;\n    }\n}"
+    "css": ". {\n    position: fixed;\n    left: 0;\n    right: 0;\n    z-index: 10;\n}\n\n.first-row {\n    height: 64px;\n    width: 100%;\n}\n.second-row {\n    font-size: 80%;\n    height: 32px;\n    width: 100%;\n    text-align: center;\n    text-transform: uppercase;\n    display: none;\n}\n\n.title .menu-toggle {\n    width: 56px;\n    text-align: center;\n    margin-right: 8px;\n    cursor: pointer;\n}\n.channels {\n    margin-right: 16px;\n    font-size:120%;\n}\n\n.logo {\n    font-family: 'Lobster', cursive;\n    font-weight: 400;\n    font-size: 200%;\n    line-height: 200%;\n    padding-left: 16px;\n    padding-right: 16px;\n}\n.logo-caption {\n    font-size: 80%;\n}\n\n.subtitle {\n    font-size: 120%;\n    line-height: 200%;\n    padding-left: 16px;\n    padding-right: 16px;\n}\n\ndiv[data-ui-field=\"header-roller\"] {\n    position: absolute;\n    left:0;right:0;bottom:0;\n    height: 32px;\n    text-align: center;\n}\n\n@media only screen and (max-width: 640px) {\n    .logo {\n        font-size: 160%;\n    }\n    .subtitle {\n        font-size: 110%;\n    }\n}\n@media only screen and (max-width: 800px) {\n    .second-row {\n        display: block;\n    }\n}\n"
   },
   {
     "componentId": "layout/side_menu",
