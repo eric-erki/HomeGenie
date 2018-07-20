@@ -1,0 +1,54 @@
+<h2 id="irandrfremotes">IR and RF remotes</h2>
+<p>Even if a phone or tablet can be used to remote control <em>HomeGenie</em>, a RF/IR remote
+is still a quick and comfortable way for controlling devices.</p>
+<p>HomeGenie support X10 RF remotes and IR controller/remotes supported by <a href="http://www.lirc.org/">LIRC</a>
+or other IR gateways that can be found in the <em>Package Manager</em>.</p>
+<p>See the video at the end of in the <a href="#/docs/setup">Setup</a> page for instruction on
+installing additional drivers using the <em>Package Manager</em>.</p>
+<p>The video below shows how to use an infrared remote to control lights and switches.</p>
+<div class="content-margin" align="center">
+    <iframe self="size-medium" height="440" src="https://www.youtube.com/embed/f_uywgXmAwk?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+<h4 id="troubleshootinglircinlinuxraspberryco">Troubleshooting LIRC in Linux, Raspberry &amp; co.</h4>
+<p>To enable IR remote control edit the /etc/lirc/hardware.conf file: </p>
+<pre><code class="bash language-bash">sudo nano /etc/lirc/hardware.conf 
+</code></pre>
+<p>Paste the following text into it:</p>
+<pre><code class="bash language-bash">########################################################
+# /etc/lirc/hardware.conf
+#
+# Arguments which will be used when launching lircd
+LIRCD_ARGS="--uinput"
+
+# Don't start lircmd even if there seems to be a good config file
+# START_LIRCMD=false
+
+# Don't start irexec, even if a good config file seems to exist.
+# START_IREXEC=false
+
+# Try to load appropriate kernel modules
+LOAD_MODULES=true
+
+# Run "lircd --driver=help" for a list of supported drivers.
+DRIVER="default"
+# usually /dev/lirc0 is the correct setting for systems using udev
+DEVICE="/dev/lirc0"
+MODULES="mceusb"
+
+# Default configuration files for your hardware if any
+LIRCD_CONF=""
+LIRCMD_CONF=""
+########################################################
+</code></pre>
+<p>Change MODULES="mceusb" line with your IR transceiver module name. </p>
+<h5 id="raspberrypigpioir">Raspberry Pi GPIO IR</h5>
+<p>If you are using Raspberry Pi GPIO IR hardware, change the above mentioned line
+to MODULES="lirc<em>rpi". For more information about IR GPIO module for Raspberry Pi
+see <a href="http://aron.ws/projects/lirc_rpi/"><i class="material-icons">link</i> Raspberry Pi lirc</em>rpi</a>. </p>
+<h5 id="cubieboardandbananapibuiltinirreceiver">CubieBoard and Banana Pi built-in IR receiver</h5>
+<p>If you want to use built-in Banana Pi / CubieBoard IR receiver, see the<br />
+following <a href="http://linux-sunxi.org/LIRC#Using_LIRC_with_Cubieboard2_.28A20_SoC.29"><i class="material-icons">link</i> instructions</a>. </p>
+<p>Restart LIRC </p>
+<pre><code class="bash language-bash">sudo /etc/init.d/lirc restart 
+</code></pre>
+<p>Happy remote controlling! =)</p>

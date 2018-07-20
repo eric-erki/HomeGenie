@@ -1,0 +1,92 @@
+<h2 id="configuringgroups">Configuring groups</h2>
+<p>Smart devices and services (also simply called <em>modules</em>) can be organized
+into <em>control groups</em>.</p>
+<p>From the <strong><i class="material-icons">settings</i>Configure</strong> menu 
+select the <strong><i class="material-icons">dashboard</i>Groups</strong> option to
+add and manage groups.
+Click the <strong><i class="material-icons">add</i>Add Group</strong> button located
+in the <em>bottom bar</em> to add a new group.</p>
+<p>To edit a group select it from the list. The group configuration page will be opened.
+From this page we can add/sort <em>modules</em> in the group, change the wallpaper, rename or
+delete it. </p>
+<div class="media-container" data-ui-load="@lib/controllers/view_pager"
+    data-o-slide="true" data-o-paging="true">
+    <img self="size-medium" src="images/docs/configure_menu.jpg">
+    <img self="size-medium" src="images/docs/groups_add_group.jpg">
+    <img self="size-medium" src="images/docs/groups_add_module.jpg">
+</div>
+<h2 id="configuringwidgets">Configuring widgets</h2>
+<p>We call <em>widget</em>, that part of the user interface through which a module is presented
+and through which we can interact with it.</p>
+<p>Depending on the type, a different widget will be used to display each <em>module</em>.
+In every case we can configure a <em>module</em> by pressing the <strong><i class="material-icons">settings</i></strong>
+(settings) button in the upper right corner of its widget. This will popup a dialog for configuring its options.</p>
+<p>Let's now see how to configure each of them.</p>
+<h3 id="weatherforecast">Weather forecast</h3>
+<p>HomeGenie can integrate also external services and make the data available to the system
+so that it can be displayed and/or used for automating tasks.</p>
+<p>A good example is the Weather widget that is based on <a href="http://www.wunderground.com">Weather Underground</a> service. </p>
+<p>To enable this widget it is required to enter a <em>service API key</em> that can be obtained by registering to the service as
+described in its option popup (see picture below).</p>
+<div class="media-container">
+    <img self="size-medium" title="Weather configuration dialog" src="images/docs/weather_options_01.jpg">
+</div>
+<p>After entering the location name and a valid API key, press the <strong><i class="material-icons">autorenew</i>Restart</strong> button.
+The widget will then retrieve updated forecast and other useful data.</p>
+<p>This data can then be used to automate various tasks.
+For example to open or close motorized window shades on behalf of the sun position
+and the weather conditions (cloudy or not), or turning off the garden irrigation system
+if it's raining outside.</p>
+<h3 id="securityalarmsystem">Security alarm system</h3>
+<p>If your setup includes smart devices such as motion/smoke/co2/etc.. detectors, 
+door/window sensors, then you can use them with the <em>Security Alarm System</em> widget.</p>
+<p>The following video explain how to use this feature.</p>
+<div class="content-margin" align="center">
+    <iframe self="size-medium" height="440" src="https://www.youtube.com/embed/jsL_fAJ5-5w?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+<!--
+In the picture below, you can see options for the *Security Alarm Widget*. It can be configured to send e-mails when the alarm is triggered and/or to run an automation program when the system is armed/disarmed/triggered.
+
+<div class="media-container">
+    <img title="Alarm System Options" src="images/docs/alarm_system_01.jpg">
+</div>
+-->
+<h3 id="lightsandswitches">Lights and switches</h3>
+<p>Also lights and switches have configurable options.
+Some options are related to the integration with other services/widgets
+(as already seen in the case of the alarm system), some other are used
+to configure the behavior of the device itself.</p>
+<p>Let's explore some of these options.</p>
+<h4 id="smartlights">Smart lights</h4>
+<p>When this options is enabled, the device will react to any of the following events:</p>
+<ul>
+<li><em>Motion Detection</em>:
+<i class="fa fa-long-arrow-right"></i>
+the device it will turn <strong>on</strong> if motion is detected from the specified sensor</li>
+<li><em>Luminance</em>:
+<i class="fa fa-long-arrow-right"></i>
+the device it will turn <strong>on</strong> if luminance from the specified sensor is below a certain value</li>
+<li><em>Timeout</em>:
+<i class="fa fa-long-arrow-right"></i>
+the device it will turn <strong>off</strong> if no events is detected for more than the specified amount of time (seconds)</li>
+</ul>
+<div class="media-container">
+    <img self="size-medium" title="Widget Features/Options" src="images/docs/widget_options_01.jpg">
+</div>
+<h4 id="energysavingmode">Energy saving mode</h4>
+<p>Enable this option to limit the level of a dimmerable device to a maximum
+predefined value (20% by default).</p>
+<h4 id="levelmemory">Level memory</h4>
+<p>Enable this option to restore last level when the dimmerable device is turned on.
+This is useful when the device itself does not provide this feature
+as it happens for some old <em>X10</em> dimmer modules.</p>
+<h3 id="thermostats">Thermostats</h3>
+<p><em>HomeGenie</em> should recognize with most Z-Wave smart thermostats.
+Drivers for other kind of thermostats are available through the <em>Package Repository</em>.</p>
+<p>The standard installation also includes a <em>Basic Thermostat</em> application that can
+be configured to add up to ten virtual thermostats.</p>
+<p>Each of them can be configured to use an arbitrary temperature sensor and
+any switchable device that is presumably connected to a real heating system.
+So, when the temperature sensor is below the configured <em>Set Point</em>, it will activate
+the switch and so the heating system and keep it active until the <em>Set Point</em>
+temperature is reached.</p>

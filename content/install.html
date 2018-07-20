@@ -1,0 +1,90 @@
+<h2 id="downloadhomegenieserver">Download HomeGenie Server</h2>
+<div align="center" class="content-margin">Current release is <strong>v1.1-526</strong> <em>(August 19, 2017)</em></div>
+<div self="size-small center" layout="rows top-spread">
+
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.1-beta.526/homegenie-beta_1.1.r526_all.deb" title="Download HomeGenie for Debian Linux" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+<img src="images/logos/luxicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
+<div layout="column center-spread">
+<h3>Linux .deb</h3>
+<span>Ubuntu / Debian derivatives</span>
+</div>
+</a>
+
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.1-beta.526/homegenie_1_1_beta_r526.tgz" title="Download HomeGenie platform agnostic archive" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+<img src="images/logos/macicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
+<div layout="column center-spread">
+<h3>Platform agnostic .tgz</h3>
+<span>OSX / Other Mono/.NET compatibles</span>
+</div>
+</a>
+
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.1-beta.526/HomeGenie_1_1_beta_r526.exe" title="Download HomeGenie for Windows" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+<img src="images/logos/winicon.png" alt="" style="margin-right:10px" width="82" align="left">
+<div layout="column center-spread">
+<h3>Windows Installer</h3>
+<span>Vista / Win7 / Win8 / Win10</span>
+</div>
+</a>
+
+</div>
+<p><br clear="all"/></p>
+<h2 id="installinstructions">Install instructions</h2>
+<h3 id="windows">Windows</h3>
+<p>Download <em>HomeGenie Windows Installer</em> and run it. Once installation process is completed, <em>HomeGenie</em> UI will be opened.
+The UI can be also opened by right clicking on the tray icon.</p>
+<h3 id="ubunturaspbianandothersdebianderivatives">Ubuntu, Raspbian and others Debian derivatives</h3>
+<p>Download <em>.deb package</em> file and install it by double clicking on it, or by using gdebi command line tool:</p>
+<pre><code class="bash language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.1-beta.526/homegenie-beta_1.1.r526_all.deb
+sudo apt-get update
+sudo apt-get install gdebi-core
+sudo gdebi homegenie-beta_1.1.r526_all.deb
+</code></pre>
+<p>HomeGenie will be installed in the <em>/usr/local/bin/homegenie</em> foder.
+Once installed, <em>HomeGenie</em> UI can be opened by entering the following URL in your web browser:
+<code>http://&lt;linux_box_address&gt;/</code>
+(where <code>&lt;linux_box_address&gt;</code> is the name or ip of the host where homegenie is installed).</p>
+<h4 id="optionalpackages">Optional packages</h4>
+<pre><code class="bash language-bash"># SSL client support
+sudo apt-get install ca-certificates-mono
+# Embedded speech synthesys engine
+sudo apt-get install libttspico-utils
+# Arduino™ programming from *HG* program editor
+sudo apt-get install arduino-mk empty-expect
+</code></pre>
+<p><strong>Note</strong> <em>HomeGenie requires mono runtime version 3.2 or later.</em></p>
+<h3 id="macosxandotherunixsystems">Mac OS X and other UNIX systems</h3>
+<p>HomeGenie can also be installed on other systems (eg. Mac OS X and other UNIX based systems) by following the procedure described below. </p>
+<h4 id="installingprerequisites">Installing prerequisites</h4>
+<p>Enter the following command from terminal (<code>apt-get</code> is shown here, eventually replace it with whatever package manager
+ is suitable for your operating system):</p>
+<pre><code class="bash language-bash">sudo apt-get install mono-runtime libmono-corlib2.0-cil libmono-system-web4.0-cil libmono-system-numerics4.0-cil libmono-system-serviceprocess4.0-cil libmono-system-data4.0-cil libmono-system-core4.0-cil libmono-system-servicemodel4.0a-cil libmono-windowsbase4.0-cil libmono-system-runtime-serialization-formatters-soap4.0-cil libmono-system-runtime-serialization4.0-cil libmono-system-xml-linq4.0-cil mono-dmcs
+</code></pre>
+<h4 id="optionaldependencies">Optional dependencies</h4>
+<p>In order to activate some features, optional dependencies may be required to install.</p>
+<pre><code class="bash language-bash"># Audio playback utilities
+sudo apt-get install alsa-utils lame
+# Embedded speech syntesys engine
+sudo apt-get install libttspico-utils
+# SSL client support
+sudo apt-get install ca-certificates-mono
+# LIRC Infrared inteface
+sudo apt-get install lirc liblircclient-dev
+# Video4Linux camera
+sudo apt-get install libv4l-0
+# X10 CM15 Home Automation interface
+sudo apt-get install libusb-1.0-0 libusb-1.0-0-dev
+# Arduino™ programming from *HG* program editor
+sudo apt-get install arduino-mk empty-expect
+</code></pre>
+<h4 id="downloadinganduncompressingtgzarchivefile">Downloading and uncompressing tgz archive file</h4>
+<p>Enter the following command terminal</p>
+<pre><code class="bash language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.1-beta.526/homegenie_1_1_beta_r526.tgz
+tar xzvf homegenie_1_1_beta_r526.tgz
+</code></pre>
+<h4 id="runninghomegenie">Running HomeGenie</h4>
+<p>After uncompressing, the <em>homegenie</em> folder will be created. Enter the following commands from terminal to start HomeGenie:</p>
+<pre><code class="bash language-bash">cd homegenie
+./startup.sh
+</code></pre>
+<p>You can now start using HomeGenie opening the following URL in your web browser:
+<code>http://&lt;server_address&gt;/</code> (where <code>&lt;server_address&gt;</code> is the name or ip of the host where HomeGenie was installed).</p>

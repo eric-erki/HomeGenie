@@ -1,0 +1,152 @@
+<h2 id="scheduling">Scheduling</h2>
+<p>With the <em>Scheduler</em>, which is available from the <em>Configure</em> menu, 
+<em>HomeGenie</em> can be programmed to take some actions on time based occurrences.</p>
+<p>The main <em>Scheduler</em> page is the calendar view that shows programmed events
+for the day. By clicking the date text, we can choose a different
+date so to display programmed events for any given day.</p>
+<div class="media-container">
+    <img self="size-medium" title="Scheduler - Calendar View" src="images/docs/scheduler_calendar_01.jpg">
+</div>
+<p>The time-line of an event will have a yellow bar to indicate the time ranges
+where the event occurs. If it's grayed out it means that the occurrence is
+in the future and has not occurred yet. Passing the pointer over it
+will display a popup with a summary of the event and its last/next
+occurrence (see above picture). </p>
+<p>It can also have some indicators on the right:</p>
+<p>&nbsp;&nbsp; <i class="material-icons bigger">check_box</i> number of modules bound to the event</p>
+<p>&nbsp;&nbsp; <i class="material-icons bigger">code</i> a script is associated with the event</p>
+<h3 id="croneventwizard">Cron event Wizard</h3>
+<p>When adding or modifying an event, the <em>Cron event Wizard</em> window will
+be shown, where we can edit occurrence, bound modules and associated script.</p>
+<p>An event should at least define the occurrences, while modules and script are
+optional.</p>
+<div class="media-container">
+    <img self="size-medium" title="Scheduler - Cron Event Wizard" src="images/docs/scheduler_wizard_01.jpg">
+</div>
+<h4 id="occurrence">Occurrence</h4>
+<p>In the <em>occurrence</em> panel of the wizard we can define the main data of the event. </p>
+<p><strong>Name and description</strong></p>
+<p>The name of the event must not contain any white space or special characters.
+The only allowed non alpha-numeric character is the dot <code>.</code>, that is used to
+categorize/group events. For example all events related to the <em>thermostat</em>
+scheduling will be like:</p>
+<ul>
+<li>"<strong>Thermostat</strong>.<strong>Heat</strong>.<strong>On</strong>"</li>
+<li>"<strong>Thermostat</strong>.<strong>Heat</strong>.<strong>Economy</strong>"</li>
+<li>"<strong>Thermostat</strong>.<strong>Heat</strong>.<strong>Off</strong>"</li>
+</ul>
+<p>This way events will be grouped under <em>Thermostat</em> category in the <em>calendar view</em> as
+shown in the first picture early in this page.</p>
+<p>The <em>description</em> field can instead contains a verbose description of the event.
+Notice that once an event is created it's name cannot be modified.</p>
+<p><strong>Event type</strong></p>
+<p>There are three types of event: </p>
+<ul>
+<li><strong>standard</strong>: can be defined by one or more occurrence of time and/or time range
+and can optionally be limited to certain days or months.  </li>
+<li><strong>date period</strong>: same as <em>standard</em> event but it will only be valid during a
+given period of the year.</li>
+<li><strong>custom cron expression</strong>: can be defined with textual expressions that are described
+later on this page. This kind of events can also include reference to other events and
+can implement complex set of occurrences.</li>
+</ul>
+<h4 id="modules">Modules</h4>
+<p>In the modules panel we can select modules that are bound to the event and
+that can be operated by the associated script.</p>
+<h4 id="script">Script</h4>
+<p>The script code entered in this panel, will be executed on every occurrence of the
+event. The language used is <em>Javascript</em> and all HomeGenie <em>helper classes</em> 
+accessible to automation programs can also be used here with the
+following objects:</p>
+<ul>
+<li><code>$$.modules</code> - ModulesHelper</li>
+<li><code>$$.program</code> - ProgramHelper</li>
+<li><code>$$.settings</code> - SettingsHelper</li>
+<li><code>$$.net</code> - NetHelper</li>
+<li><code>$$.serial</code> - SerialHelper</li>
+<li><code>$$.tcp</code> - TcpHelper</li>
+<li><code>$$.udp</code> - UdpHelper</li>
+<li><code>$$.mqtt</code> - MqttHelper</li>
+<li><code>$$.knx</code> - KnxHelper</li>
+<li><code>$$.scheduler</code> - SchedulerHelper</li>
+</ul>
+<p>See <a href="api/ape/annotated.html" target="_blank">Helper Class documentation</a> for a detailed description.</p>
+<p>In addition to that, an event script can use some special objects/methods:</p>
+<ul>
+<li><code>$$.boundModules</code>: 
+a <em><a href="http://localhost:63342/HomeGenie-site/api/ape/a00004.html">ModulesHelper</a></em> object containing modules selected in the <em>Modules</em> panel for the event.
+For example for turning on all bound modules we'll use: <code>$$.boundModules.on()</code>.</li>
+<li><code>$$.onPrevious()</code>: 
+boolean value indicating if the event was scheduled in the previous minute.</li>
+<li><code>$$.onNext()</code>: 
+boolean value indicating if the event will be also scheduled in the next minute.</li>
+<li><code>$$.data(k[,v])</code>: 
+function to store data for this event and that will be persisted across each occurrence.</li>
+<li><code>$$.onUpdate(function(m,p))</code>:
+used to set an handler for listening to modules events. Once registered the handler will be called even
+if the event is not scheduled.</li>
+<li><code>$$.pause(seconds)</code>: pause the script for the given amount of time</li>
+</ul>
+<h3 id="aboutcronexpressions">About cron expressions</h3>
+<p>Cron expressions are strings that are actually made up of five sub-expressions, that describe individual details of the schedule. These sub-expressions are separated with white-space, and represent:</p>
+<ul>
+<li>Minutes</li>
+<li>Hours</li>
+<li>Day-of-Month</li>
+<li>Month</li>
+<li>Day-of-Week</li>
+</ul>
+<p>Individual sub-expressions can contain ranges (eg. 8-22) and/or lists (eg. 5,10,30,45).</p>
+<p>Wild-cards (the '*' character) can be used to say “every” possible value of this field. Therefore the '*' character in the <em>Month</em> field of the previous example simply means “every month”. A '*' in the Day-Of-Week field would therefore obviously mean “every day of the week”.</p>
+<p>All of the fields have a set of valid values that can be specified. These values should be fairly obvious – such as the numbers 0 to 59 for minutes, and the values 0 to 23 for hours. Day-of-Month can be any value 1-31. Months can be specified as values between 1 and 12. Days-of-Week can be specified as values between 0 and 6 (or 1 to 7 since both 0 and 7 stand for Sunday).</p>
+<p>The '/' character can be used to specify increments to values. For example, if you put '0/15' in the Minutes field, it means 'every 15th minute of the hour, starting at minute zero'. If you used '3/20' in the Minutes field, it would mean 'every 20th minute of the hour, starting at minute three' – or in other words it is the same as specifying '3,23,43' in the Minutes field.</p>
+<h4 id="examplecronexpressions">Example Cron Expressions</h4>
+<p><strong>Example 1</strong> An expression to create a trigger that simply fires every 5 minutes</p>
+<pre><code class="crontab language-crontab">0/5 * * * *
+</code></pre>
+<p><strong>Example 2</strong> Every even minute</p>
+<pre><code class="crontab language-crontab">*/2 * * * *
+</code></pre>
+<p><strong>Example 3</strong> Every odd minute</p>
+<pre><code class="crontab language-crontab">1-59/2 * * * *
+</code></pre>
+<p><strong>Example 4</strong> Every 5 minutes, Weekdays from 8am-5pm.</p>
+<pre><code class="crontab language-crontab">*/5 8-16 * * 1-5
+</code></pre>
+<p>Cron expressions can also be grouped using parenthesis and combined using the following operators:</p>
+<ul>
+<li><strong><code>;</code></strong> &nbsp; <em>AND</em></li>
+<li><strong><code>:</code></strong> &nbsp; <em>OR</em></li>
+<li><strong><code>&gt;</code></strong> &nbsp; <em>UNTIL</em> (time range, 'from' &gt; 'to')</li>
+<li><strong><code>%</code></strong> &nbsp; <em>EXCEPT</em></li>
+</ul>
+<p><strong>Example 5</strong> From 11:20PM to 3:15AM</p>
+<pre><code class="crontab language-crontab">(20 23 * * *) &gt; (15 3 * * *)
+</code></pre>
+<p><strong>Example 6</strong> From 11:20PM to 3:15AM except in May(5) and September(9)</p>
+<pre><code class="crontab language-crontab">((20 23 * * *) &gt; (15 3 * * *)) % (* * * 5,9 *)
+</code></pre>
+<p><strong>Example 7</strong> At 11:20PM or 3:15AM in January(1) and December(12) every Sunday(0) and Tuesday(2)</p>
+<pre><code class="crontab language-crontab">((20 23 * * *) : (15 3 * * *)) ; (* * * 1,12 0,2)
+</code></pre>
+<h3 id="cronvariablessumandsubtract">Cron variables, sum and subtract</h3>
+<p>An event can also be recalled in a cron expression by using the <strong>@</strong> symbol followed by
+the name of the event.</p>
+<p><strong>Example 8</strong> From 11:20PM to 3:15AM only during winter holidays</p>
+<pre><code class="crontab language-crontab">((20 23 * * *) &gt; (15 3 * * *)) ; @Holidays.Winter
+</code></pre>
+<p>When the referenced event is an exact time, sum and subtract operator can be used
+to add or subtract certain amount of minutes to the recalled event.
+See the next example.</p>
+<h4 id="solartimesevents">SolarTimes events</h4>
+<p>There are also a few built-in special events that can be used to reference
+<strong>sunrise</strong> and <strong>sunset</strong> times:</p>
+<ul>
+<li>SolarTimes.Sunrise</li>
+<li>SolarTimes.Sunset</li>
+<li>SolarTimes.SolarNoon</li>
+</ul>
+<p><strong>Example 9</strong> From half an hour before sunrise to 45 minutes after sunset
+only during summer holidays</p>
+<pre><code class="crontab language-crontab">(@SolarTimes.Sunrise - 30 &gt; @SolarTimes.Sunset + 45) ; @Holidays.Summer
+</code></pre>

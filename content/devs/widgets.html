@@ -1,0 +1,335 @@
+<h2 id="introduction">Introduction</h2>
+<p>We've learned so far that automation programs, smart devices and services
+are abstracted in HomeGenie as generic <em>modules</em>.
+Depending on the type, a module can then be presented to the end-user in
+the web interface with a different <em>widget</em>.</p>
+<p>For example, to display a light dimmer module, the <em>dimmer</em> widget will 
+be used as it will be for all modules of the same type. </p>
+<div class="media-container">
+    <img _self_="size-small" src="images/docs/widgets_dimmer_type.jpg" />
+</div>
+<p>So, <em>widgets</em> are reusable UI components that are employed to display data
+and information of a bound <em>module</em> and that may also contain some controls
+(such as buttons, sliders, …) for interacting with it. </p>
+<p>Technically speaking a widget is made out of two piece of code:
+one is the <em>HTML</em> code for the view, which so determine how the widget will
+looks like in the user interface; the other is the <em>Javascript</em> code that
+will determine actions to be taken upon user interaction or when a parameter
+of the bound module is updated.</p>
+<p>We'll now see how to explore, customize and create widgets by using
+the integrated <em>Widget Editor</em>.</p>
+<h2 id="widgeteditor">Widget Editor</h2>
+<p><em>Widget Editor</em> is accessible from the <strong>Configure &rarr; Automation</strong> menu.
+The main page lists all widgets that are currently available in the system.
+To edit an existing widget simply tap it from the list, while to create
+a new one select the <strong><i class="material-icons">add_circle</i>Add widget</strong> option
+from the <em>actions menu</em> located in the bottom-right corner.</p>
+<div class="media-container">
+    <img self="size-medium" src="images/docs/widgets_editor_list.jpg" />
+</div>
+<p>Widgets are identified by a 3 parts path consisting of <code>brand</code>/<code>category</code>/<code>name</code>.
+For example the <em>light dimmer</em> widget is identified by <code>homegenie</code>/<code>generic</code>/<code>dimmer</code>:</p>
+<ul>
+<li><strong>brand:</strong> <em>homegenie</em> <strong>category:</strong> <em>generic</em> <strong>name:</strong> <em>dimmer</em></li>
+</ul>
+<p>When editing a widget we can see two panels. One is the code editor that can
+be switched from HTML to Javascript, while the other one is the preview
+panel where the widget is actually displayed and that we can use to
+test its functionality.</p>
+<div class="media-container" data-ui-load="@lib/controllers/view_pager"
+    data-o-slide="true" data-o-paging="true">
+    <img self="size-medium" src="images/docs/widgets_editor_html.jpg">
+    <img self="size-medium" src="images/docs/widgets_editor_js.jpg">
+    <!--img self="size-medium" src="images/docs/widgets_editor_params.jpg"-->
+</div>
+<p>In order to test the widget we first have to choose a module to bind to
+from the select menu right above the preview.
+We can also simulate the change of a module parameter, to see how the
+widget reacts, by clicking the <strong><i class="material-icons">menu</i></strong>
+button that is located next to the bound module select menu.</p>
+<h3 id="theviewhtml">The View - HTML</h3>
+<p>When designing the widget's <em>View</em> a few guide-lines have to be considered:</p>
+<ul>
+<li>never use the <code>id</code> attribute for elements that have to be referenced in
+the <em>Javascript</em> code; use the <code>data-ui-field</code> attribute instead</li>
+<li>prefer the use of <em>CSS</em> classes provided by <em>HG UI</em>, which are <a href="https://api.jquerymobile.com/classes/">jQuery Mobile's CSS classes</a>
+and the ones defined by standard <a href="https://github.com/genielabs/HomeGenie/blob/master/BaseFiles/Common/html/css/my.css#L265">HG's CSS file</a></li>
+<li>since <em>HG UI</em> is based on <a href="http://jquerymobile.com/">jQuery Mobile</a>,
+prefer using this framework instead of plain HTML; there are a couple of
+other frameworks/plugins that can also be used next to <a href="http://jquerymobile.com/">jQuery Mobile</a>
+and that are listed at the end of this page</li>
+</ul>
+<p>While editing the HTML code, to update the widget preview hit <code>CTRL+S</code>
+keys or press the <strong><i class="material-icons">check_circle</i>Run/Preview</strong> button.</p>
+<h4 id="examplehtmlcodeforabasicwidgetcontainer">Example - HTML code for a basic widget container</h4>
+<pre><code class="html language-html">&lt;!-- main widget container --&gt;
+&lt;div data-ui-field="widget" 
+     class="ui-overlay-shadow ui-corner-all ui-body-inherit hg-widget-a"&gt;
+     &lt;!-- widget content begin --&gt;
+    &lt;h1&gt;Simple widget with a button&lt;/h1&gt;
+    &lt;input data-ui-field="test-btn" type="button" class="ui-btn" /&gt;
+    &lt;br/&gt;
+    Status: &lt;span data-ui-field="status"&gt;...&lt;/span&gt;
+     &lt;!-- widget content end --&gt;
+&lt;/div&gt;
+</code></pre>
+<h3 id="thecontrollerjavascript">The Controller - Javascript</h3>
+<p>The <em>Javascript</em> code takes care of updating the data displayed in the
+widget's view and also of sending proper commands when the user presses
+buttons and other controls that might be implemented in it.</p>
+<p>In this <em>Javascript</em> code, the <code>$$</code> object is the widget instance
+object that is used to implement the widget life-cycle and that holds
+other properties and objects used in the widget context, such as the
+bound module and some utility methods to handle most common tasks.</p>
+<p>The following is the <em>Javascript</em> code skeleton required to implement the
+widget life's cycle:s</p>
+<pre><code class="javascript language-javascript">// this field is used to provide infos about the widget
+$$.widget = {
+    name   : 'Simple widget',
+    version: '1.0',
+    author : 'Foo Bar',
+    release: '2016-05-06',
+    icon   : 'path/to/some/icon/image.png'
+}
+
+// called after the widget is loaded
+$$.onStart = function() {
+}
+
+// called each time the UI needs to be fully updated
+$$.onRefresh = function() {
+}
+
+// called each time a parameter of the bound module is updated
+$$.onUpdate = function(parameter, value) {
+}
+
+// called when the widget is requested to stop/dispose
+$$.onStop = function() {
+}
+</code></pre>
+<p>Other objects and properties available through the <code>$$</code> object are:</p>
+<h4 id="ddfield"><code>$$.field(...)</code></h4>
+<p>This method is used to get the <em>jQuery</em> object for the widget's element 
+having the <code>data-ui-field</code> attribute set to the given <code>&lt;field_name&gt;</code>.</p>
+<p><strong>Syntax</strong></p>
+<pre><code class="javascript language-javascript">$$.field('&lt;field_name&gt;')
+</code></pre>
+<p><strong>Example</strong></p>
+<pre><code class="javascript language-javascript">// use of $$.field in the onStart method to register
+// the click event handler for the button 'test-btn'
+// (see the HTML code in the previous example)
+$$.onStart = function() {
+  // button click handler
+  $$.field('text-btn').on('click', function () {
+    $$.field('status').html('button clicked!');
+  });
+}
+</code></pre>
+<h4 id="ddmodule"><code>$$.module</code></h4>
+<p>Returns the module object bound to the widget.</p>
+<p><strong>Module Properties</strong> (example instance)</p>
+<pre><code class="javascript language-javascript">$$.module =&gt; {
+    Domain: "HomeAutomation.PhilipsHue",
+    Address: "1",
+    Name: "Porch Light",
+    Description: "module description",
+    DeviceType: "Dimmer"
+}
+</code></pre>
+<p><strong>Module Methods</strong></p>
+<ul>
+<li><code>$$.module.prop('&lt;name&gt;')</code><br/>
+Gets the module's property specified by <code>&lt;name&gt;</code>.<br/>
+<strong>Example</strong></li>
+</ul>
+<pre><code class="javascript language-javascript">var level = $$.module.prop('Status.Level');
+if (level != null) {
+    console.log('Module level:', level.Value);
+    console.log('     updated:', level.UpdateTime);
+}
+</code></pre>
+<ul>
+<li><code>$$.module.command('&lt;api_command&gt;', '&lt;options&gt;', &lt;callback_fn&gt;)</code><br/>
+Invokes the given <code>&lt;api_command&gt;</code> on the module.<br/>
+<strong>Example</strong></li>
+</ul>
+<pre><code class="javascript language-javascript">// turn off the module
+$$.module.command('Control.Off');
+// set dimmer level to 50%
+$$.module.command('Control.Level', '50', function(res) {
+    console.log('command response:', res);
+});
+</code></pre>
+<h4 id="ddapicall"><code>$$.apiCall(...)</code></h4>
+<p>Invokes a <a href="api/mig/overview.html" target="_blank">Web API</a> method.</p>
+<p><strong>Syntax</strong></p>
+<pre><code class="javascript language-javascript">$$.apiCall('&lt;api_method&gt;', 
+           '&lt;domain&gt;', 
+           '&lt;address&gt;', 
+           '&lt;method_options&gt;', 
+           &lt;callback_fn&gt;)
+</code></pre>
+<p><strong>Example</strong></p>
+<pre><code class="javascript language-javascript">// TODO: add some examples
+</code></pre>
+<p>…</p>
+<pre><code class="javascript language-javascript">/*
+# Quick-Reference for other methods/properties
+# exposed by '$$' object
+
+ Get the jQuery element in the main document
+   $$.field('&lt;document_tree_selector&gt;', true)
+
+ Shorthand for HG.Ui
+   $$.ui
+
+ Shorthand for HG.WebApp.Utility
+   $$.util
+
+ Shorthand for HG.WebApp.Locales
+   $$.locales
+
+ Blink a widget field and the status led image (if present)
+   $$.signalActity('&lt;widget_field_name&gt;') 
+
+*/
+</code></pre>
+<h3 id="oldwidgetversion">Old widget version</h3>
+<p>The <em>Javascript</em> code implementation discussed so far is the recommended
+way for writing a widget's controller and it is called <strong>v2</strong>.
+Anyway there are still a few widgets that might use an old way for writing
+the widget's controller.</p>
+<p>This old version of widget's controller, which is called <strong>v1</strong>, is
+implemented as a JSON object that is formatted as shown in the example
+below:</p>
+<h4 id="exampleminimaljavascriptcodeforv1widgets">Example - Minimal javascript code for v1 widgets</h4>
+<pre><code class="javascript language-javascript">[{
+  // use this field to assign a default image to the widget
+  IconImage: 'pages/control/widgets/homegenie/generic/images/icons/robot.png',
+
+  // this field is used for initializing the widget once loaded
+  Initialized: false,
+
+  // this method is called each time the module bound to this widget is updated
+  // put here the code for displaying module's data
+  RenderView: function (cuid, module) {
+    var container = $(cuid);
+    var widget = container.find('[data-ui-field=widget]');
+    var button = widget.find('[data-ui-field=test-btn]');
+    var name = widget.find('[data-ui-field=name]');
+    if (!this.Initialized) {
+        this.Initialized = true;
+        // register widget's event handlers
+        button.on('click', ButtonClicked);
+    }
+    name.html(module.Name);
+  },
+
+  ButtonClicked: function() {
+    // handler for the button click event here
+    // this will make an API request in most cases
+    // using jQuery
+    $.get('/api/'+module.Domain+'/'+module.Address+'/Control.On', function(res){
+        // request completed....
+    });
+    // or alternatively use HG Javascript API
+    // (see the table below for more HG Javascript API examples)
+    var ctrl = HG.Control.Modules;
+    ctrl.ApiCall(module.Domain, module.Address, 'Control.On', '', function(res){
+        // request completed...
+    });
+  }
+}]
+</code></pre>
+<p>The only mandatory fields in the Javascript code of a <em>v1</em> widget are
+<em>IconImage</em> and <em>RenderView</em>:</p>
+<ul>
+<li><strong>IconImage</strong> is the image used to identify the widget in the <em>UI</em>. See
+<a href="https://github.com/genielabs/HomeGenie/tree/master/BaseFiles/Common/html/pages/control/widgets/homegenie/generic/images">List of HG UI icons</a>.</li>
+<li><strong>RenderView</strong> is a function that <em>HG UI</em> will call everytime the
+bound module is updated, passing to it the parameter <code>cuid</code>, which is the
+<strong>id</strong> attribute of the widget's container and the <code>module</code> parameter,
+which is a reference to the bound module.<br/>
+The <code>module</code> object has the following property fields: <code>Domain</code>, <code>Address</code>,
+<code>Name</code>, <code>Description</code>, <code>Properties</code>.</li>
+</ul>
+<p>As shown in the <em>ButtonClicked</em> handler, in most cases, when the user
+click a widget control, an API request is made. The end-point of the
+request will be usually an automation program that is <a href="programs.html#commands">listening</a>
+to API calls for that module domain.</p>
+<p>Prefer using <strong>v2</strong> implementation since the <strong>v1</strong> implementation might
+be deprecated at some point. </p>
+<p>Both <em>v1</em> and <em>v2</em> widgets can use <em>HG Javascript API</em>.</p>
+<h4 id="hgjavascriptapicommonfunctions">HG Javascript API - Common functions</h4>
+<pre><code class="javascript language-javascript">// use the "Utility" namespace
+var utils = HG.WebApp.Utility;
+
+// get a reference to a module by a given &lt;domain&gt; and &lt;address&gt;
+var mod = utils.GetModuleByDomainAddress(domain, address);
+
+// get a module parameter by name
+var level = utils.GetModulePropertyByName(mod, 'Status.Level');
+console.log('Module name = ' + mod.Name + ' Status.Level = ' + level.Value);
+
+// show a confirmation request popup
+utils.ConfirmPopup('Delete item', 'Are you sure?', function(confirmed) {
+    if (confirmed) {
+        // the action was confirmed...
+    } else {
+        // action canceled
+    }
+});
+
+// format a date 
+var today = utils.FormatDate(new Date());
+// format a date with time
+var todayTime = utils.FormatDateTime(new Date());
+
+// use the "Control" namespace
+var control = HG.Control.Modules;
+
+// call HG API function
+control.ApiCall(domain, address, command, options, function(response){
+    // handle response here...
+});
+
+// use the "Programs" namespace
+var progs = HG.Automation.Programs;
+
+// Run a program
+progs.Run(programId, options, fuction(response){
+    // handle response here...
+});
+</code></pre>
+<h2 id="homegeniejavascriptapi">HomeGenie Javascript API</h2>
+<p>See <a href="https://github.com/genielabs/HomeGenie/tree/master/BaseFiles/Common/html/js/api">HG Javascript API on github</a> for a complete
+list of available namespaces and commands.</p>
+<h2 id="frameworksandplugins">Frameworks and Plugins</h2>
+<p>The following is a list of framework/plugins that can be used in a widget.</p>
+<h3 id="baseframeworks">Base Frameworks</h3>
+<ul>
+<li><a href="https://jquery.com/">jQuery</a></li>
+<li><a href="http://jquerymobile.com/">jQuery Mobile</a></li>
+</ul>
+<h3 id="uicontrols">UI Controls</h3>
+<ul>
+<li><a href="http://jweir.github.io/colorwheel/">ColorWheel</a></li>
+<li><a href="http://anthonyterrien.com/knob/">jQuery Knob</a></li>
+<li><a href="http://dev.jtsage.com/jQM-DateBox/">jQM Datebox</a></li>
+</ul>
+<h3 id="notificationtooltip">Notification / Tooltip</h3>
+<ul>
+<li><a href="http://qtip2.com/">qTip</a></li>
+<li><a href="http://www.erichynds.com/examples/jquery-notify/">jQuery UI Notify Widget</a></li>
+</ul>
+<h3 id="graphicscustomcontrols">Graphics / Custom controls</h3>
+<ul>
+<li><a href="http://www.flotcharts.org/">Flot</a></li>
+<li><a href="http://raphaeljs.com/">RaphaelJs</a></li>
+</ul>
+<h3 id="utility">Utility</h3>
+<ul>
+<li><a href="http://momentjs.com/">Moment.js</a></li>
+<li><a href="http://www.jstorage.info/">jStorage</a></li>
+</ul>
