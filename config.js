@@ -4,7 +4,7 @@
         "title": "HomeGenie",
         "googleSiteId": "UA-123-456",
         "resourcePath": "app/",
-        "libraryPath": " http://192.168.2.104:8081/lib/",
+        "libraryPath": "https://genielabs.github.io/zkit/lib/",
         "genielabs.github.io": {
                 "resourcePath": "/HomeGenie/app/",
                 "libraryPath": "https://genielabs.github.io/zkit/lib/"
