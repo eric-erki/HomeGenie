@@ -4,6 +4,8 @@
 }
 
 h2 {
+    font-family: 'Lobster', cursive !important;
+    font-weight: 400;
     margin:  0;
     padding-top: 8px;
     padding-bottom: 8px;

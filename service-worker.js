@@ -29,19 +29,23 @@ self.__precacheManifest = [
   },
   {
     "url": "api/ape/a00003.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "0a29c98626491b0e5e74c1d1637298b9"
   },
   {
     "url": "api/ape/a00004.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "7616ae76bdc73400b013216bd7369130"
   },
   {
     "url": "api/ape/a00005.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "9d2c2cc302d0c96b47015f9411999024"
   },
   {
     "url": "api/ape/a00006.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "ff60d57f9f3bcbccdb0be28dd9a75109"
+  },
+  {
+    "url": "api/ape/a00007.html",
+    "revision": "beea8c8db7fd63c60503c8892f728b33"
   },
   {
     "url": "api/ape/a00008.html",
@@ -73,67 +77,67 @@ self.__precacheManifest = [
   },
   {
     "url": "api/ape/a00015.html",
-    "revision": "2852b374323848f3712c61c157d3b658"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00016.html",
-    "revision": "805110ddd4c064850a6ddf52131a8341"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00017.html",
-    "revision": "c69dfccd1725d6817ffd52539aeb0aca"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00018.html",
-    "revision": "8856c95012b6bc2c527f22e05bc3d2d7"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00037.html",
-    "revision": "cecda47afef52c6c620a2da10c7d09fe"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00038.html",
-    "revision": "ec504a1587cfa11d6dd150c376b69bfb"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00040.html",
-    "revision": "4153b2d78715b715ab72ae543b1618eb"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00041.html",
-    "revision": "fb9b3a542fc864969649c536f240f70a"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00072.html",
-    "revision": "875e188bf84bc56b1b39f7ba6020b328"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00073.html",
-    "revision": "27e63873ddfeb44d4cfa47be6b897a8d"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00074.html",
-    "revision": "d0d4aa9763fad6222695fae6c539e77a"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00075.html",
-    "revision": "29520f2fdf73fdfdd76ca8f807445900"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00076.html",
-    "revision": "1fb0f61de2cde89679a52309c2dd2425"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00077.html",
-    "revision": "8dad59ad83da0d35185f03599f7ffe1a"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00078.html",
-    "revision": "602c2ccd679fe8e593cd7ec1da38e445"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00079.html",
-    "revision": "c3387916e2f1c4660e10b30c621c4d11"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/a00080.html",
@@ -821,7 +825,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/mig/css/bootstrap-doc.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "5a0b05e7513a446c79f24b4831cbb15a"
   },
   {
     "url": "api/mig/css/bootstrap-responsive.css",
@@ -841,7 +845,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/mig/includes/header.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "345e629ea2d4e1e143078a3077e42b87"
   },
   {
     "url": "api/mig/includes/sidemenu.html",
@@ -849,7 +853,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/mig/js/bootstrap.js",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "c4e4ebc476cf62d4840a19cd42b06255"
   },
   {
     "url": "api/mig/js/common_includes.js",
@@ -885,23 +889,23 @@ self.__precacheManifest = [
   },
   {
     "url": "api/mig/mig_api_upnp.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "c30aef74bb916a823a30a917c3c875a2"
   },
   {
     "url": "api/mig/mig_api_w800rf.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "28ce5caebdc82bd6153303ef8036536a"
   },
   {
     "url": "api/mig/mig_api_x10.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "a2949c10be9f2bf6ad18b296d362e3fb"
   },
   {
     "url": "api/mig/mig_api_zwave.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "93d72456c4dea8f83692ee916f50b588"
   },
   {
     "url": "api/mig/overview.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "eb0dec0f8a6d54ca6bf2e8fb4edd9072"
   },
   {
     "url": "app/controllers/content_loader.js",
@@ -925,7 +929,7 @@ self.__precacheManifest = [
   },
   {
     "url": "app/layout/side_menu.css",
-    "revision": "f3bd1834495dc36dc37f7f300c5fe00a"
+    "revision": "5a1ff467966e7bab8bc26dffca12bc4b"
   },
   {
     "url": "app/layout/side_menu.html",
@@ -1021,7 +1025,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "c54cba7f35dcae74cc019146699261b9"
+    "revision": "3031fbf1545e536a4c6e5d7bbf4a364e"
   },
   {
     "url": "index.js",
@@ -1029,19 +1033,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "67802f7552c952e96dcec33070953444"
+    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "daf3014760a1ad146d1552cda2b48ab3"
+    "revision": "2bee21872f78a29d249fe8d731853d7e"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
+    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
+    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1085,7 +1089,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "630e5b6805eeddd575fa2948502254d3"
+    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2017,7 +2021,7 @@ self.__precacheManifest = [
   },
   {
     "url": "source/app/layout/side_menu.css",
-    "revision": "f3bd1834495dc36dc37f7f300c5fe00a"
+    "revision": "5a1ff467966e7bab8bc26dffca12bc4b"
   },
   {
     "url": "source/app/layout/side_menu.html",
@@ -2157,7 +2161,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/ape/a00005.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "2f11d2d225fdd299a1ffbc63fd732bbe"
   },
   {
     "url": "api/ape/a00007.png",
@@ -2269,7 +2273,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/mig/ico/apple-touch-icon-114-precomposed.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "07dffff7f7c2fcc59bd833456e4a06e3"
   },
   {
     "url": "api/mig/ico/apple-touch-icon-144-precomposed.png",
@@ -2297,7 +2301,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "5266b6e5def38885c51035028fc0b3f3"
+    "revision": "ebe822f97dd910c86e23eb353db8de68"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
