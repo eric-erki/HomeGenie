@@ -3,7 +3,7 @@
     zuix.store("config", {
         "title": "HomeGenie",
         "googleSiteId": "UA-123-456",
-        "resourcePath": "app/",
+        "resourcePath": "/app/",
         "libraryPath": "https://genielabs.github.io/zkit/lib/",
         "genielabs.github.io": {
                 "resourcePath": "/HomeGenie/app/",

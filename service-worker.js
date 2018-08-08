@@ -77,67 +77,67 @@ self.__precacheManifest = [
   },
   {
     "url": "api/ape/a00015.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "2852b374323848f3712c61c157d3b658"
   },
   {
     "url": "api/ape/a00016.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "805110ddd4c064850a6ddf52131a8341"
   },
   {
     "url": "api/ape/a00017.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "c69dfccd1725d6817ffd52539aeb0aca"
   },
   {
     "url": "api/ape/a00018.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "8856c95012b6bc2c527f22e05bc3d2d7"
   },
   {
     "url": "api/ape/a00037.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "cecda47afef52c6c620a2da10c7d09fe"
   },
   {
     "url": "api/ape/a00038.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "ec504a1587cfa11d6dd150c376b69bfb"
   },
   {
     "url": "api/ape/a00040.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "4153b2d78715b715ab72ae543b1618eb"
   },
   {
     "url": "api/ape/a00041.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "fb9b3a542fc864969649c536f240f70a"
   },
   {
     "url": "api/ape/a00072.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "875e188bf84bc56b1b39f7ba6020b328"
   },
   {
     "url": "api/ape/a00073.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "27e63873ddfeb44d4cfa47be6b897a8d"
   },
   {
     "url": "api/ape/a00074.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "d0d4aa9763fad6222695fae6c539e77a"
   },
   {
     "url": "api/ape/a00075.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "29520f2fdf73fdfdd76ca8f807445900"
   },
   {
     "url": "api/ape/a00076.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "1fb0f61de2cde89679a52309c2dd2425"
   },
   {
     "url": "api/ape/a00077.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "8dad59ad83da0d35185f03599f7ffe1a"
   },
   {
     "url": "api/ape/a00078.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "602c2ccd679fe8e593cd7ec1da38e445"
   },
   {
     "url": "api/ape/a00079.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "c3387916e2f1c4660e10b30c621c4d11"
   },
   {
     "url": "api/ape/a00080.html",
@@ -945,11 +945,15 @@ self.__precacheManifest = [
   },
   {
     "url": "config.js",
-    "revision": "e4c0b7b2bc8b31cb14e0edd0e4b7eef3"
+    "revision": "a1f4ba994353c26e65eb5b64df4e41fb"
   },
   {
     "url": "config/default.json",
-    "revision": "4f46a11ad630366743f65bfa4db1aa76"
+    "revision": "20ed506b5b8aab3158ad36ba1599a437"
+  },
+  {
+    "url": "config/production.json",
+    "revision": "06d9da74a21ea706691898131a7fbaa1"
   },
   {
     "url": "content/about.html",
@@ -1020,12 +1024,16 @@ self.__precacheManifest = [
     "revision": "c55488315343d9afb4d13ebf9cc8f97b"
   },
   {
+    "url": "download.html",
+    "revision": "8de3ac415d0e632fd3068052ce16a3d3"
+  },
+  {
     "url": "index.css",
     "revision": "adc4f01f55bf2895531c0316fb9a684c"
   },
   {
     "url": "index.html",
-    "revision": "3031fbf1545e536a4c6e5d7bbf4a364e"
+    "revision": "c2735aa02a5d2e11e58ae7107a321a49"
   },
   {
     "url": "index.js",
@@ -1033,19 +1041,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
+    "revision": "60a2d341769bbf72ae8cdba9a59ba2b6"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "2bee21872f78a29d249fe8d731853d7e"
+    "revision": "4dfad3cb6c678cb2e5aaedd81ebe8b46"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
+    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
+    "revision": "45d2af18d4499a5d70c7bdfc932f9bbf"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1089,7 +1097,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
+    "revision": "d1c5d94d44d17e5619a1404eab20f862"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2125,11 +2133,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tasks/zuix/bin/build.js",
-    "revision": "1e0ea04b16207f855fd6f75166613c07"
+    "revision": "3a857a48d84ce199bfa790ced720a2e6"
   },
   {
     "url": "tasks/zuix/bin/watch.js",
-    "revision": "6d5dcc399b3be1f121f2b73802e6204b"
+    "revision": "c2191af32221877f2b4b50e765c1b036"
   },
   {
     "url": "tasks/zuix/engines/swig-md.js",
@@ -2137,11 +2145,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tasks/zuix/engines/zuix-bundler.js",
-    "revision": "96762ed2979f8d16de1a998edcdd113b"
+    "revision": "e89a3e1a7dd5eeec28fc39142a442bd2"
   },
   {
     "url": "tasks/zuix/helpers/zuix-context.js",
-    "revision": "5d9b33e7014b4099f161b8348ac757d0"
+    "revision": "dffceeaf38a8d5a2c54910a53e9cda17"
   },
   {
     "url": "tasks/zuix/helpers/zuix-template.js",
@@ -2301,7 +2309,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "ebe822f97dd910c86e23eb353db8de68"
+    "revision": "5266b6e5def38885c51035028fc0b3f3"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
@@ -2309,27 +2317,27 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
+    "revision": "3f71d5abba7bdd1b5ac065c792714819"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "02414f49ad13c7889bc8754ff114c5f0"
+    "revision": "21b36318ea414faa3dbc3821e977bc25"
   },
   {
     "url": "images/docs/configure_menu.jpg",
-    "revision": "835c8a9997ccdd102ebd019f6503612c"
+    "revision": "228deba0785cfbf7aa4e62e7b59e6316"
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "967eb447c7d749a286723c51bd262903"
+    "revision": "9f768b1a778e1110053c112b22c7553d"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "efd5c0e7d47fc340d6e15bbbb6d25f9d"
+    "revision": "c1b3aa62205898f3d1157ce2b21ae663"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "77f1fc6539a33329df9885a21f1c829d"
+    "revision": "45511dbbd1733c184f33cf72a2604fa5"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2337,15 +2345,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "901e33284519b08e2b721df7f172de1b"
+    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "56ef3de5acf68b30dde566c483de4f19"
+    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2bf9ad612e9cedc80014be290222f7ac"
+    "revision": "2c5628c71c2980eec5df16cfb72aa21f"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
@@ -2413,6 +2421,46 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/package_repos.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/package_repos.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
