@@ -1,6 +1,6 @@
 /*
  * Copyright 2015-2017 G-Labs. All Rights Reserved.
- *         https://genielabs.github.io/zuix
+ *         https://zuixjs.github.io/zuix
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
  *
  *  This file is part of
  *  zUIx, Javascript library for component-based development.
- *        https://genielabs.github.io/zuix
+ *        https://zuixjs.github.io/zuix
  *
  * @author Generoso Martello <generoso@martello.com>
  */
@@ -106,10 +106,8 @@ for (let i = 0; i < copyFiles.length; i++) {
 
 // Copy zuix-dist files and 'config.json'
 tlog.overwrite('   | "%s" -> "%s"', 'zuix-dist', 'js');
-// - last zUIx release
+// - copy last zUIx release
 copyFolder(util.format('%s/node_modules/zuix-dist/js', process.cwd()), util.format('%s/js', buildFolder));
-// - last zUIx build (if 'dist' folder is found in parent folder)
-//copyFolder(util.format('%s/../dist/js', process.cwd()), util.format('%s/js/zuix', buildFolder));
 // - auto-generated config.js
 copyAppConfig();
 tlog.overwrite(' ^G\u2713^: done').br();

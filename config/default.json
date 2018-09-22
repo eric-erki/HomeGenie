@@ -33,7 +33,7 @@
       "bundle": {
         "js": false,
         "css": false,
-        "zuix": false
+        "zuix": true
       },
       "minify": {
         "disable": false,

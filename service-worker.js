@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "2c2d10c3b8ac432bf3c61e3272479035"
+    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
   },
   {
     "url": "api/ape/a00002.html",
@@ -949,7 +949,7 @@ self.__precacheManifest = [
   },
   {
     "url": "config/default.json",
-    "revision": "20ed506b5b8aab3158ad36ba1599a437"
+    "revision": "fce57d59b11edf6ce32294188819a70b"
   },
   {
     "url": "config/production.json",
@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "2c995b64d937a505deb2a98c4194c92e"
+    "revision": "e070922a562afe0f927c7dae484dec0f"
   },
   {
     "url": "content/raspberry.html",
@@ -1028,12 +1028,16 @@ self.__precacheManifest = [
     "revision": "8de3ac415d0e632fd3068052ce16a3d3"
   },
   {
+    "url": "google7f8debac56a66e22.html",
+    "revision": "28bb828bef7fcac67414e2aa2eaa8567"
+  },
+  {
     "url": "index.css",
-    "revision": "adc4f01f55bf2895531c0316fb9a684c"
+    "revision": "13a707bfe858e49574804847c6150e5e"
   },
   {
     "url": "index.html",
-    "revision": "de014f18d12b4605d31885c230726f24"
+    "revision": "a6d7e8c949d7ff647f96b68378ca0799"
   },
   {
     "url": "index.js",
@@ -1073,19 +1077,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix-bundler.js",
-    "revision": "d58ff2644f64acef00ac316afcb47044"
+    "revision": "3f474466c27da6a2f22caa4e4630752e"
   },
   {
     "url": "js/zuix-bundler.min.js",
-    "revision": "17cb1cc49a73b499768d27f10e762875"
+    "revision": "3518a066916b1e027074cb1190fe67d8"
   },
   {
     "url": "js/zuix.js",
-    "revision": "f4c422d29df4207d696d185e4ca4bdc3"
+    "revision": "00df4495aeee52542e0cda1b7e42ae0d"
   },
   {
     "url": "js/zuix.min.js",
-    "revision": "2724e83dfdf0d7fc23aa4ab12821535a"
+    "revision": "4b4e35d144e2a2a1706c0c491f1ccc68"
   },
   {
     "url": "js/zuix/zuix-bundler.js",
@@ -1109,11 +1113,11 @@ self.__precacheManifest = [
   },
   {
     "url": "package-lock.json",
-    "revision": "817ff90d13f56192e498f09ad51904f6"
+    "revision": "e6b15ed192b509f8de72fb1684fa83ed"
   },
   {
     "url": "package.json",
-    "revision": "c47feb196012f47e2657eee33d2861f5"
+    "revision": "dcdb1a87eb89ddc92535a5fb66745a62"
   },
   {
     "url": "site_config.js",
@@ -2057,7 +2061,7 @@ self.__precacheManifest = [
   },
   {
     "url": "source/index.css",
-    "revision": "adc4f01f55bf2895531c0316fb9a684c"
+    "revision": "13a707bfe858e49574804847c6150e5e"
   },
   {
     "url": "source/index.html",
@@ -2132,28 +2136,76 @@ self.__precacheManifest = [
     "revision": "ed25dc64f757df940d68d70073faac6c"
   },
   {
-    "url": "tasks/zuix/bin/build.js",
+    "url": "tasks/zuix_/bin/build.js",
     "revision": "3a857a48d84ce199bfa790ced720a2e6"
   },
   {
-    "url": "tasks/zuix/bin/watch.js",
+    "url": "tasks/zuix_/bin/watch.js",
     "revision": "c2191af32221877f2b4b50e765c1b036"
   },
   {
-    "url": "tasks/zuix/engines/swig-md.js",
+    "url": "tasks/zuix_/engines/swig-md.js",
     "revision": "e30d5714149c894d1ff2c0b4143f3d1a"
   },
   {
-    "url": "tasks/zuix/engines/zuix-bundler.js",
+    "url": "tasks/zuix_/engines/zuix-bundler.js",
     "revision": "e89a3e1a7dd5eeec28fc39142a442bd2"
   },
   {
-    "url": "tasks/zuix/helpers/zuix-context.js",
+    "url": "tasks/zuix_/helpers/zuix-context.js",
     "revision": "dffceeaf38a8d5a2c54910a53e9cda17"
   },
   {
-    "url": "tasks/zuix/helpers/zuix-template.js",
+    "url": "tasks/zuix_/helpers/zuix-template.js",
     "revision": "53e2a12f2f3f9e7a2e888c5ac8ed64a0"
+  },
+  {
+    "url": "tasks/zuix_/lib/logger.js",
+    "revision": "0f371f9b865d163d26673f70603bff54"
+  },
+  {
+    "url": "tasks/zuix/bin/build.js",
+    "revision": "6c1fe699345c261942d65f603637511e"
+  },
+  {
+    "url": "tasks/zuix/bin/watch.js",
+    "revision": "85c3d4683a73944820d8551e4bd6e665"
+  },
+  {
+    "url": "tasks/zuix/engines/swig-md.js",
+    "revision": "6aa74baca99aa46de47627d8325ebd5b"
+  },
+  {
+    "url": "tasks/zuix/engines/tags/author-tag.js",
+    "revision": "fb6590e6295e16af5bd7e956eaf430c8"
+  },
+  {
+    "url": "tasks/zuix/engines/tags/codepen-tag.js",
+    "revision": "2e09c7a025fe8ccfc2733b74a06f154d"
+  },
+  {
+    "url": "tasks/zuix/engines/tags/github-tag.js",
+    "revision": "82ecb3e5a413eea30e79ec44e62bcbf4"
+  },
+  {
+    "url": "tasks/zuix/engines/tags/glitch-tag.js",
+    "revision": "a4eb9d1c8b73ad09477aaf6c3b78f43b"
+  },
+  {
+    "url": "tasks/zuix/engines/tags/link-tag.js",
+    "revision": "070f400d56120ef851799650c7a8651b"
+  },
+  {
+    "url": "tasks/zuix/engines/tags/youtube-tag.js",
+    "revision": "312f5811921c00c687f7f9cbebc5c193"
+  },
+  {
+    "url": "tasks/zuix/engines/zuix-bundler.js",
+    "revision": "857d407011832260814de8e09d478d3c"
+  },
+  {
+    "url": "tasks/zuix/helpers/zuix-context.js",
+    "revision": "7d8edef8b13f16ebbe8114839c6e5281"
   },
   {
     "url": "tasks/zuix/lib/logger.js",
@@ -2161,7 +2213,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "9dfb5a89b64accb949bfe52cb733b11c"
+    "revision": "a69fc4d22db19a821f0a5580f0870729"
   },
   {
     "url": "workbox-sw.js",
@@ -2329,7 +2381,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "9f768b1a778e1110053c112b22c7553d"
+    "revision": "967eb447c7d749a286723c51bd262903"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
@@ -2337,7 +2389,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "45511dbbd1733c184f33cf72a2604fa5"
+    "revision": "77f1fc6539a33329df9885a21f1c829d"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2345,15 +2397,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
+    "revision": "901e33284519b08e2b721df7f172de1b"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
+    "revision": "56ef3de5acf68b30dde566c483de4f19"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2c5628c71c2980eec5df16cfb72aa21f"
+    "revision": "2bf9ad612e9cedc80014be290222f7ac"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
@@ -2421,46 +2473,6 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/package_repos.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/package_repos.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/program_editor_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/program_editor_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_calendar_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_calendar_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_wizard_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_wizard_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/system_settings_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/system_settings_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {

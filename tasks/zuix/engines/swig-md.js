@@ -1,6 +1,6 @@
 /*
  * Copyright 2017-2018 G-Labs. All Rights Reserved.
- *         https://genielabs.github.io/zuix
+ *         https://zuixjs.github.io/zuix
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
  *
  *  This file is part of
  *  zUIx, Javascript library for component-based development.
- *        https://genielabs.github.io/zuix
+ *        https://zuixjs.github.io/zuix
  *
  * @author Generoso Martello <generoso@martello.com>
  */
@@ -74,6 +74,20 @@ swig.setDefaults({cache: false});
 
 extras.useTag(swig, 'switch');
 extras.useTag(swig, 'case');
+
+// other custom tags
+const youtubeTag = require('./tags/youtube-tag');
+const glitchTag = require('./tags/glitch-tag');
+const codepenTag = require('./tags/codepen-tag');
+const githubTag = require('./tags/github-tag');
+const linkTag = require('./tags/link-tag');
+const authorTag = require('./tags/author-tag');
+swig.setTag('youtube', youtubeTag.parse, youtubeTag.compile, false, false);
+swig.setTag('glitch', glitchTag.parse, glitchTag.compile, false, false);
+swig.setTag('codepen', codepenTag.parse, codepenTag.compile, false, false);
+swig.setTag('github', githubTag.parse, githubTag.compile, false, false);
+swig.setTag('link', linkTag.parse, linkTag.compile, false, false);
+swig.setTag('author', authorTag.parse, authorTag.compile, false, false);
 
 function swigTemplate(page, locals) {
     let template = isMarkdown(page.file) ? render(page.content) : page.content;

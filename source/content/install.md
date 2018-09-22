@@ -74,7 +74,7 @@ sudo apt-get install arduino-mk empty-expect
 
 ### Mac OS X and other UNIX systems
 
-HomeGenie can also be installed on other systems (eg. Mac OS X and other UNIX based systems) by following the procedure described below. 
+HomeGenie can also be installed on other systems (eg. Mac OS X and other UNIX based systems) by following the procedure described below.
 
 #### Installing prerequisites
 
