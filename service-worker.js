@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
+    "revision": "48498d74785213308b7591d2e20059d6"
   },
   {
     "url": "api/ape/a00002.html",
@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "e070922a562afe0f927c7dae484dec0f"
+    "revision": "1c3de4967b1bf8a23a43243528306d8c"
   },
   {
     "url": "content/raspberry.html",
@@ -1037,7 +1037,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a6d7e8c949d7ff647f96b68378ca0799"
+    "revision": "7d5de97b046fc33e6613e23f1a9db82c"
   },
   {
     "url": "index.js",
@@ -2136,34 +2136,6 @@ self.__precacheManifest = [
     "revision": "ed25dc64f757df940d68d70073faac6c"
   },
   {
-    "url": "tasks/zuix_/bin/build.js",
-    "revision": "3a857a48d84ce199bfa790ced720a2e6"
-  },
-  {
-    "url": "tasks/zuix_/bin/watch.js",
-    "revision": "c2191af32221877f2b4b50e765c1b036"
-  },
-  {
-    "url": "tasks/zuix_/engines/swig-md.js",
-    "revision": "e30d5714149c894d1ff2c0b4143f3d1a"
-  },
-  {
-    "url": "tasks/zuix_/engines/zuix-bundler.js",
-    "revision": "e89a3e1a7dd5eeec28fc39142a442bd2"
-  },
-  {
-    "url": "tasks/zuix_/helpers/zuix-context.js",
-    "revision": "dffceeaf38a8d5a2c54910a53e9cda17"
-  },
-  {
-    "url": "tasks/zuix_/helpers/zuix-template.js",
-    "revision": "53e2a12f2f3f9e7a2e888c5ac8ed64a0"
-  },
-  {
-    "url": "tasks/zuix_/lib/logger.js",
-    "revision": "0f371f9b865d163d26673f70603bff54"
-  },
-  {
     "url": "tasks/zuix/bin/build.js",
     "revision": "6c1fe699345c261942d65f603637511e"
   },
@@ -2213,7 +2185,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "a69fc4d22db19a821f0a5580f0870729"
+    "revision": "c1fcb86861a35927db9762b393f0170c"
   },
   {
     "url": "workbox-sw.js",
@@ -2381,7 +2353,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "967eb447c7d749a286723c51bd262903"
+    "revision": "9f768b1a778e1110053c112b22c7553d"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
@@ -2389,7 +2361,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "77f1fc6539a33329df9885a21f1c829d"
+    "revision": "45511dbbd1733c184f33cf72a2604fa5"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2397,15 +2369,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "901e33284519b08e2b721df7f172de1b"
+    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "56ef3de5acf68b30dde566c483de4f19"
+    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2bf9ad612e9cedc80014be290222f7ac"
+    "revision": "2c5628c71c2980eec5df16cfb72aa21f"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
@@ -2473,6 +2445,46 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/package_repos.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/package_repos.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
