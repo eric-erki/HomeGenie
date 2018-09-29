@@ -17,7 +17,7 @@ release:
 </div>
 </a>
 
-<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ releasev.version }}/homegenie_{{ release.version }}.tgz" title="Download HomeGenie v{{ release.version }} platform agnostic archive" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/homegenie_{{ release.version }}.tgz" title="Download HomeGenie v{{ release.version }} platform agnostic archive" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
 <img src="images/logos/macicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
 <div layout="column center-spread">
 <h3>Platform agnostic .tgz</h3>

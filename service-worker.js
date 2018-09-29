@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "1c3de4967b1bf8a23a43243528306d8c"
+    "revision": "82bb3bb907f7f15d7b984b607e3aa589"
   },
   {
     "url": "content/raspberry.html",
