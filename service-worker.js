@@ -941,7 +941,7 @@ self.__precacheManifest = [
   },
   {
     "url": "app/templates/mdl_card.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "61f9c04d0602223d14da9df3ffcefd14"
   },
   {
     "url": "config.js",
@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "857a5e69a64d1af13cf1a9cf097c18b9"
+    "revision": "8716e096c8bee54f77a79aaeb61d2e68"
   },
   {
     "url": "content/raspberry.html",
@@ -1045,19 +1045,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
+    "revision": "67802f7552c952e96dcec33070953444"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "2bee21872f78a29d249fe8d731853d7e"
+    "revision": "daf3014760a1ad146d1552cda2b48ab3"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
+    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
+    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1101,7 +1101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
+    "revision": "630e5b6805eeddd575fa2948502254d3"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2333,7 +2333,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "ebe822f97dd910c86e23eb353db8de68"
+    "revision": "5266b6e5def38885c51035028fc0b3f3"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
@@ -2341,27 +2341,27 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
+    "revision": "a9d670e71fa7bd6bc544f445d8cede67"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "02414f49ad13c7889bc8754ff114c5f0"
+    "revision": "456e71ef6bdb4edd343369a98297b6fb"
   },
   {
     "url": "images/docs/configure_menu.jpg",
-    "revision": "835c8a9997ccdd102ebd019f6503612c"
+    "revision": "228deba0785cfbf7aa4e62e7b59e6316"
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "967eb447c7d749a286723c51bd262903"
+    "revision": "848690eedfcd01eae92605f4517b93c2"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "efd5c0e7d47fc340d6e15bbbb6d25f9d"
+    "revision": "0d07a1aa7b8600ff832761b5f6ff927e"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "77f1fc6539a33329df9885a21f1c829d"
+    "revision": "1e4b075018c5a3153f6c447a3329e278"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2369,83 +2369,123 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "901e33284519b08e2b721df7f172de1b"
+    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "56ef3de5acf68b30dde566c483de4f19"
+    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2bf9ad612e9cedc80014be290222f7ac"
+    "revision": "c05dc7c6440555b6d10339fc68c3e013"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "6b4e27ef27220fc820b3943f6d294e65"
   },
   {
     "url": "images/docs/interconnections_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "2b3fef114a1f171292b92c50315c221f"
   },
   {
     "url": "images/docs/interconnections_02.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "21121b582a7a7d683bd616debb98b8e8"
   },
   {
     "url": "images/docs/interconnections_02.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "893e23e53c77d77c42204ddb62bde23c"
   },
   {
     "url": "images/docs/interconnections_03.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "23ad6deb47d1450d1193eb2612a1f3aa"
   },
   {
     "url": "images/docs/interconnections_03.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "b54fc5553d68779530fe1e614f834647"
   },
   {
     "url": "images/docs/interconnections_04.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "6ce3f10fd6d2147a49c04f06df2f7067"
   },
   {
     "url": "images/docs/interconnections_04.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "f764f963331aa630261ad78768c51edf"
   },
   {
     "url": "images/docs/interconnections_04b.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "2b1ebe6f8e544d4e5d536846c8fd2b02"
   },
   {
     "url": "images/docs/interconnections_04b.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "486ac2a0840184b0b330d0936f8ba38b"
   },
   {
     "url": "images/docs/interconnections_05.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "f67ee7e50241dff0998a8e56c8e095cf"
   },
   {
     "url": "images/docs/interconnections_05.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "b243a65eccbbeff03c0cbf84b64f09eb"
   },
   {
     "url": "images/docs/macro_record_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "be171293ce73134e9a6cc34145a25e1f"
   },
   {
     "url": "images/docs/macro_record_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "fbcdbf324f4a237b107b19be37864053"
   },
   {
     "url": "images/docs/media_server_widget_00.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "3bcb8f245cf4dd61311fd3c7e55b18e1"
   },
   {
     "url": "images/docs/media_server_widget_00.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "2460a27773786b158d9bb59e0387f5dc"
   },
   {
     "url": "images/docs/package_repos.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "b4014105a8bb692a94d8c2ff27202383"
+  },
+  {
+    "url": "images/docs/package_repos.png",
+    "revision": "92e12e6e731146af0af8cfb251be1104"
+  },
+  {
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "88f19f22be74f1d99bb74febb00412f4"
+  },
+  {
+    "url": "images/docs/program_editor_01.png",
+    "revision": "995064402485e41b639151822cd5c5c1"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.jpg",
+    "revision": "54b91abf13bf120a2ca90b62fa256371"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.png",
+    "revision": "f5d09539edc6558728e34bd4f785ae0d"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "e9080d00d4f4b0f96ddf11c99668f8b9"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "aacea54d78ca2ec8e3086ca4ce34271e"
+  },
+  {
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "ed9471f69345bd4f805aa380f9a6fe34"
+  },
+  {
+    "url": "images/docs/system_settings_01.png",
+    "revision": "98a02c995bfd86276c95c914c78d2651"
+  },
+  {
+    "url": "images/docs/villa.jpg",
+    "revision": "2df6d5269a804fd9a83fa25efc42f2e3"
   },
   {
     "url": "images/docs/weather_options_01.jpg",
@@ -2541,107 +2581,99 @@ self.__precacheManifest = [
   },
   {
     "url": "images/hgplus/hg_phone_01.png",
-    "revision": "ec62d1b8635783cb48f585f5872f8b3b"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_02.jpg",
-    "revision": "22c88abbcd598565c12c8dfb0cd3102e"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_02.png",
-    "revision": "7c89eba3fb656d82af54223f0035be02"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_03.jpg",
-    "revision": "30200b41eec87aa05cfac7d4883883ad"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_03.png",
-    "revision": "aff20632b9028b1584ec22977e63265f"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_04.jpg",
-    "revision": "9dd19380582030d798165895a6586d6e"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_04.png",
-    "revision": "4c04c0ee223eefe18895322ac477b59f"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_05.jpg",
-    "revision": "38334bbf5d71d2f4c9cd1a1c2831dbab"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_05.png",
-    "revision": "7564c97e33d4804ccbacae39164ab575"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_06.jpg",
-    "revision": "9e6e4a6026dde129631b3b375b46b261"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_06.png",
-    "revision": "a6a09d0b884466489581cbb5c032c520"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_07.jpg",
-    "revision": "fe5a23af6111d6c925693d9df001058b"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_07.png",
-    "revision": "e452461a23391751f5a4d7b2fac5a666"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_media_player.jpg",
-    "revision": "6ec310bf4f53c90949e6abc269eaf399"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_media_player.png",
-    "revision": "4b6a4c9ce5473e9ffb1c9879ed7dac8c"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_media_server.jpg",
-    "revision": "2b4f1d59a3b9cdc735fa929f9b4a2858"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_media_server.png",
-    "revision": "eba5718b15aa2664f966265355859908"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_01.jpg",
-    "revision": "e78a9f8c3b2180554c6f17075261ba7f"
-  },
-  {
-    "url": "images/hgplus/hg_tablet_01.png",
-    "revision": "7c9866efd98da81deabdfcd16ae72ce3"
-  },
-  {
-    "url": "images/hgplus/hg_tablet_02.jpg",
-    "revision": "4cf26aaa62fd3a1567a841aaef1487d3"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_02.png",
-    "revision": "d8695c17f745ae4fa08ff999125d919c"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_03.jpg",
-    "revision": "c457387376acbc13d7e0e32f3ff82983"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_03.png",
-    "revision": "ac3518f7c4c6b3b3afb7e894a3421e16"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_04.jpg",
-    "revision": "f2947079890e0c60751a2d12620fbab3"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_04.png",
-    "revision": "d5761313f2c1831f4fba36fdd132511a"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_05.jpg",
-    "revision": "f9298b827efae1325e83f118eb6e9abe"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_tablet_05.png",
