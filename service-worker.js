@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "b62d575d68191891ec4e7394240fed6e"
+    "revision": "03507188dd3df39fa03819695b9f3dc9"
   },
   {
     "url": "content/raspberry.html",
@@ -2353,7 +2353,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "967eb447c7d749a286723c51bd262903"
+    "revision": "9f768b1a778e1110053c112b22c7553d"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
@@ -2361,7 +2361,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "77f1fc6539a33329df9885a21f1c829d"
+    "revision": "45511dbbd1733c184f33cf72a2604fa5"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2729,7 +2729,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/logos/android_logo.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "9d258cb09c821961e092b9b459399d9e"
   },
   {
     "url": "images/logos/bpilogo.jpg",
