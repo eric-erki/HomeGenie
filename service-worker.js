@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "03507188dd3df39fa03819695b9f3dc9"
+    "revision": "e6641a4f3931c097b161aedd37c8c2d6"
   },
   {
     "url": "content/raspberry.html",
@@ -2361,7 +2361,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "45511dbbd1733c184f33cf72a2604fa5"
+    "revision": "77f1fc6539a33329df9885a21f1c829d"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2445,6 +2445,46 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/package_repos.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/package_repos.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
