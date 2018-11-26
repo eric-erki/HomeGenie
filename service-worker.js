@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "48498d74785213308b7591d2e20059d6"
+    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
   },
   {
     "url": "api/ape/a00002.html",
@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "e6641a4f3931c097b161aedd37c8c2d6"
+    "revision": "ae54bc6e6d3bd68dea7aae67d8822842"
   },
   {
     "url": "content/raspberry.html",
@@ -1037,7 +1037,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "7d5de97b046fc33e6613e23f1a9db82c"
+    "revision": "a6d7e8c949d7ff647f96b68378ca0799"
   },
   {
     "url": "index.js",
@@ -2185,7 +2185,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "c1fcb86861a35927db9762b393f0170c"
+    "revision": "a69fc4d22db19a821f0a5580f0870729"
   },
   {
     "url": "workbox-sw.js",
@@ -2361,7 +2361,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "77f1fc6539a33329df9885a21f1c829d"
+    "revision": "45511dbbd1733c184f33cf72a2604fa5"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
