@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
+    "revision": "48498d74785213308b7591d2e20059d6"
   },
   {
     "url": "api/ape/a00002.html",
@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "11bf9cd5af606c00c66ccdbd796f1411"
+    "revision": "11e189d4bed52d9a526d06659e0ed437"
   },
   {
     "url": "content/raspberry.html",
@@ -1037,7 +1037,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a6d7e8c949d7ff647f96b68378ca0799"
+    "revision": "7d5de97b046fc33e6613e23f1a9db82c"
   },
   {
     "url": "index.js",
@@ -1045,19 +1045,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
+    "revision": "67802f7552c952e96dcec33070953444"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "2bee21872f78a29d249fe8d731853d7e"
+    "revision": "daf3014760a1ad146d1552cda2b48ab3"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
+    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
+    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1101,7 +1101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
+    "revision": "630e5b6805eeddd575fa2948502254d3"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2185,7 +2185,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "a69fc4d22db19a821f0a5580f0870729"
+    "revision": "c1fcb86861a35927db9762b393f0170c"
   },
   {
     "url": "workbox-sw.js",
@@ -2373,15 +2373,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "56ef3de5acf68b30dde566c483de4f19"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "2bf9ad612e9cedc80014be290222f7ac"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "6b4e27ef27220fc820b3943f6d294e65"
   },
   {
     "url": "images/docs/interconnections_01.png",
@@ -2440,48 +2440,12 @@ self.__precacheManifest = [
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/package_repos.jpg",
+    "url": "images/docs/media_server_widget_00.png",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/package_repos.png",
-    "revision": "92e12e6e731146af0af8cfb251be1104"
-  },
-  {
-    "url": "images/docs/program_editor_01.jpg",
-    "revision": "88f19f22be74f1d99bb74febb00412f4"
-  },
-  {
-    "url": "images/docs/program_editor_01.png",
-    "revision": "995064402485e41b639151822cd5c5c1"
-  },
-  {
-    "url": "images/docs/scheduler_calendar_01.jpg",
-    "revision": "54b91abf13bf120a2ca90b62fa256371"
-  },
-  {
-    "url": "images/docs/scheduler_calendar_01.png",
-    "revision": "f5d09539edc6558728e34bd4f785ae0d"
-  },
-  {
-    "url": "images/docs/scheduler_wizard_01.jpg",
-    "revision": "e9080d00d4f4b0f96ddf11c99668f8b9"
-  },
-  {
-    "url": "images/docs/scheduler_wizard_01.png",
-    "revision": "aacea54d78ca2ec8e3086ca4ce34271e"
-  },
-  {
-    "url": "images/docs/system_settings_01.jpg",
-    "revision": "ed9471f69345bd4f805aa380f9a6fe34"
-  },
-  {
-    "url": "images/docs/system_settings_01.png",
-    "revision": "98a02c995bfd86276c95c914c78d2651"
-  },
-  {
-    "url": "images/docs/villa.jpg",
-    "revision": "2df6d5269a804fd9a83fa25efc42f2e3"
+    "url": "images/docs/package_repos.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/weather_options_01.jpg",
