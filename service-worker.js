@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "48498d74785213308b7591d2e20059d6"
+    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
   },
   {
     "url": "api/ape/a00002.html",
@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "11e189d4bed52d9a526d06659e0ed437"
+    "revision": "81c5c00174542a6e090e8a2221dbab00"
   },
   {
     "url": "content/raspberry.html",
@@ -1037,7 +1037,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "7d5de97b046fc33e6613e23f1a9db82c"
+    "revision": "a6d7e8c949d7ff647f96b68378ca0799"
   },
   {
     "url": "index.js",
@@ -1045,19 +1045,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "67802f7552c952e96dcec33070953444"
+    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "daf3014760a1ad146d1552cda2b48ab3"
+    "revision": "2bee21872f78a29d249fe8d731853d7e"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
+    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
+    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1101,7 +1101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "630e5b6805eeddd575fa2948502254d3"
+    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2185,7 +2185,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "c1fcb86861a35927db9762b393f0170c"
+    "revision": "a69fc4d22db19a821f0a5580f0870729"
   },
   {
     "url": "workbox-sw.js",
@@ -2373,11 +2373,11 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "56ef3de5acf68b30dde566c483de4f19"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2bf9ad612e9cedc80014be290222f7ac"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
@@ -2537,7 +2537,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/hgplus/hg_phone_01.jpg",
-    "revision": "025271dc75d10c2d03b537402bbbd2bd"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/hgplus/hg_phone_01.png",
@@ -2729,7 +2729,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/logos/android_logo.png",
-    "revision": "9d258cb09c821961e092b9b459399d9e"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/logos/bpilogo.jpg",
