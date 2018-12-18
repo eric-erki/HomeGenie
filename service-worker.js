@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
+    "revision": "48498d74785213308b7591d2e20059d6"
   },
   {
     "url": "api/ape/a00002.html",
@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "81c5c00174542a6e090e8a2221dbab00"
+    "revision": "133c33b364789bf1182243686cfc9de3"
   },
   {
     "url": "content/raspberry.html",
@@ -1037,7 +1037,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a6d7e8c949d7ff647f96b68378ca0799"
+    "revision": "7d5de97b046fc33e6613e23f1a9db82c"
   },
   {
     "url": "index.js",
@@ -1045,19 +1045,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
+    "revision": "67802f7552c952e96dcec33070953444"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "2bee21872f78a29d249fe8d731853d7e"
+    "revision": "daf3014760a1ad146d1552cda2b48ab3"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
+    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
+    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1101,7 +1101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
+    "revision": "630e5b6805eeddd575fa2948502254d3"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2185,7 +2185,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "a69fc4d22db19a821f0a5580f0870729"
+    "revision": "c1fcb86861a35927db9762b393f0170c"
   },
   {
     "url": "workbox-sw.js",
@@ -2333,7 +2333,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "ebe822f97dd910c86e23eb353db8de68"
+    "revision": "5266b6e5def38885c51035028fc0b3f3"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
@@ -2341,27 +2341,27 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
+    "revision": "3f71d5abba7bdd1b5ac065c792714819"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "02414f49ad13c7889bc8754ff114c5f0"
+    "revision": "21b36318ea414faa3dbc3821e977bc25"
   },
   {
     "url": "images/docs/configure_menu.jpg",
-    "revision": "835c8a9997ccdd102ebd019f6503612c"
+    "revision": "228deba0785cfbf7aa4e62e7b59e6316"
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "967eb447c7d749a286723c51bd262903"
+    "revision": "9f768b1a778e1110053c112b22c7553d"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "efd5c0e7d47fc340d6e15bbbb6d25f9d"
+    "revision": "c1b3aa62205898f3d1157ce2b21ae663"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "77f1fc6539a33329df9885a21f1c829d"
+    "revision": "45511dbbd1733c184f33cf72a2604fa5"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2369,15 +2369,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "901e33284519b08e2b721df7f172de1b"
+    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "56ef3de5acf68b30dde566c483de4f19"
+    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "2c5628c71c2980eec5df16cfb72aa21f"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
@@ -2445,6 +2445,46 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/package_repos.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/package_repos.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/program_editor_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/system_settings_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
@@ -2537,7 +2577,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/hgplus/hg_phone_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "025271dc75d10c2d03b537402bbbd2bd"
   },
   {
     "url": "images/hgplus/hg_phone_01.png",
@@ -2729,7 +2769,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/logos/android_logo.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "9d258cb09c821961e092b9b459399d9e"
   },
   {
     "url": "images/logos/bpilogo.jpg",
