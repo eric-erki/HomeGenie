@@ -1,6 +1,6 @@
 ---
 release:
-  version: 1.2-stable.20
+  version: 1.2-stable.21
   date: December 19, 2018
 ---
 ## Download HomeGenie Server
