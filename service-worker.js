@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "bab15d2f5505f8c0538ab545fac6eb9c"
+    "revision": "d03910cbeff0db67d465f2312a4a5c04"
   },
   {
     "url": "content/raspberry.html",
@@ -2353,7 +2353,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "9f768b1a778e1110053c112b22c7553d"
+    "revision": "967eb447c7d749a286723c51bd262903"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
@@ -2361,7 +2361,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "45511dbbd1733c184f33cf72a2604fa5"
+    "revision": "77f1fc6539a33329df9885a21f1c829d"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2369,15 +2369,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
+    "revision": "901e33284519b08e2b721df7f172de1b"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
+    "revision": "56ef3de5acf68b30dde566c483de4f19"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2c5628c71c2980eec5df16cfb72aa21f"
+    "revision": "2bf9ad612e9cedc80014be290222f7ac"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
