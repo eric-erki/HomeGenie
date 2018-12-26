@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "04a0ca66b929b0b441c3a7e2da0edb89"
+    "revision": "f6f5113bd2153419ef2538fd5fe22fa8"
   },
   {
     "url": "content/raspberry.html",
@@ -2357,11 +2357,11 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "efd5c0e7d47fc340d6e15bbbb6d25f9d"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "77f1fc6539a33329df9885a21f1c829d"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2377,7 +2377,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2bf9ad612e9cedc80014be290222f7ac"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
@@ -2438,6 +2438,30 @@ self.__precacheManifest = [
   {
     "url": "images/docs/media_server_widget_00.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/media_server_widget_00.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "e9080d00d4f4b0f96ddf11c99668f8b9"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "aacea54d78ca2ec8e3086ca4ce34271e"
+  },
+  {
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "ed9471f69345bd4f805aa380f9a6fe34"
+  },
+  {
+    "url": "images/docs/system_settings_01.png",
+    "revision": "98a02c995bfd86276c95c914c78d2651"
+  },
+  {
+    "url": "images/docs/villa.jpg",
+    "revision": "2df6d5269a804fd9a83fa25efc42f2e3"
   },
   {
     "url": "images/docs/weather_options_01.jpg",
