@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "0a15c51751710024c2f66a25a6e4eece"
+    "revision": "957e420fe6af76aea5ff2f9c51336646"
   },
   {
     "url": "content/raspberry.html",
@@ -1101,7 +1101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "630e5b6805eeddd575fa2948502254d3"
+    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
   },
   {
     "url": "js/zuix/zuix.min.js",
