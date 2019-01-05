@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "6009f4e99c1733b98dc23e354cd40e58"
+    "revision": "93eebcf14d664e11e4362c462df58127"
   },
   {
     "url": "content/raspberry.html",
@@ -1057,7 +1057,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
+    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1105,7 +1105,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.min.js",
-    "revision": "17b65a7df5599d242e5caae2549c12f2"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "manifest.json",
@@ -2449,10 +2449,6 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/package_repos.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/program_editor_01.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
