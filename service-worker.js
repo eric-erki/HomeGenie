@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "93eebcf14d664e11e4362c462df58127"
+    "revision": "0e04425d77649fc1520187ed7e3195e7"
   },
   {
     "url": "content/raspberry.html",
@@ -1057,7 +1057,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
+    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1101,11 +1101,11 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "630e5b6805eeddd575fa2948502254d3"
+    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
   },
   {
     "url": "js/zuix/zuix.min.js",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "17b65a7df5599d242e5caae2549c12f2"
   },
   {
     "url": "manifest.json",
@@ -2381,7 +2381,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/interconnections_01.jpg",
-    "revision": "6b4e27ef27220fc820b3943f6d294e65"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/interconnections_01.png",
@@ -2452,6 +2452,10 @@ self.__precacheManifest = [
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
     "url": "images/docs/program_editor_01.png",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
@@ -2482,58 +2486,6 @@ self.__precacheManifest = [
   {
     "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/weather_options_01.jpg",
-    "revision": "3f4b7eba62dea084fd2d79b6cf96abd9"
-  },
-  {
-    "url": "images/docs/weather_options_01.png",
-    "revision": "db3d80c6134a72b493337643705fcb1d"
-  },
-  {
-    "url": "images/docs/widget_options_01.gif",
-    "revision": "0692ef6ad193c7e2ad272c4249df3ced"
-  },
-  {
-    "url": "images/docs/widget_options_01.jpg",
-    "revision": "7cfd2dfeb25b304b74148dbe8e965de8"
-  },
-  {
-    "url": "images/docs/widget_options_01.png",
-    "revision": "a7e95c12db0544c57a32c3b7127a59df"
-  },
-  {
-    "url": "images/docs/widgets_dimmer_type.jpg",
-    "revision": "ed1014ed6aa40db3091bacd143ec519d"
-  },
-  {
-    "url": "images/docs/widgets_dimmer_type.png",
-    "revision": "a7a5e18055656fc2edc4ee1a42f9331d"
-  },
-  {
-    "url": "images/docs/widgets_editor_html.jpg",
-    "revision": "de93b3dbed14cba3cc2acad1566ea3af"
-  },
-  {
-    "url": "images/docs/widgets_editor_html.png",
-    "revision": "f7374c222450e1c7fc4eaefe7d2c5701"
-  },
-  {
-    "url": "images/docs/widgets_editor_js.jpg",
-    "revision": "662186a3f097d6d3de41420baf306ba3"
-  },
-  {
-    "url": "images/docs/widgets_editor_js.png",
-    "revision": "696c3ab3b786d9e31568c500d5bcb7a0"
-  },
-  {
-    "url": "images/docs/widgets_editor_list.jpg",
-    "revision": "1bd328b365d078010e152f61d3479842"
-  },
-  {
-    "url": "images/docs/widgets_editor_list.png",
-    "revision": "331a36f2871251798a177a4067f012b0"
   },
   {
     "url": "images/docs/widgets_editor_params.jpg",
