@@ -49,6 +49,9 @@ The UI can be also opened by right clicking on the tray icon.
 
 ### Ubuntu, Raspbian and others Debian derivatives
 
+Follow the instruction to add the [Mono repository]() to your system (only add the repository, do not install *mono*).
+If you already have a previous version of mono installed, upgrade it by running `apt-get upgrade`.
+
 Download _.deb package_ file and install it by double clicking on it, or by using gdebi command line tool:
 
 ```bash
@@ -83,8 +86,10 @@ HomeGenie can also be installed on other systems (eg. Mac OS X and other UNIX ba
 
 #### Installing prerequisites
 
- Enter the following command from terminal (`apt-get` is shown here, eventually replace it with whatever package manager
- is suitable for your operating system):
+Download and install [mono runtime](https://www.mono-project.com/download/stable/).
+
+Enter the following command from terminal (`apt-get` is shown here, eventually replace it with the package manager
+used in your system):
 
 ```bash
 sudo apt-get install mono-runtime libmono-corlib2.0-cil libmono-system-web4.0-cil libmono-system-numerics4.0-cil libmono-system-serviceprocess4.0-cil libmono-system-data4.0-cil libmono-system-core4.0-cil libmono-system-servicemodel4.0a-cil libmono-windowsbase4.0-cil libmono-system-runtime-serialization-formatters-soap4.0-cil libmono-system-runtime-serialization4.0-cil libmono-system-xml-linq4.0-cil mono-dmcs

@@ -33,6 +33,8 @@
 <p>Download <em>HomeGenie Windows Installer</em> and run it. Once installation process is completed, <em>HomeGenie</em> UI will be opened.
 The UI can be also opened by right clicking on the tray icon.</p>
 <h3 id="ubunturaspbianandothersdebianderivatives">Ubuntu, Raspbian and others Debian derivatives</h3>
+<p>Follow the instruction to add the [Mono repository]() to your system (only add the repository, do not install <em>mono</em>).
+If you already have a previous version of mono installed, upgrade it by running <code>apt-get upgrade</code>.</p>
 <p>Download <em>.deb package</em> file and install it by double clicking on it, or by using gdebi command line tool:</p>
 <pre><code class="bash language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.2-stable.36/homegenie_1.2-stable.36_all.deb
 sudo apt-get update
@@ -55,8 +57,9 @@ sudo apt-get install arduino-mk empty-expect
 <h3 id="macosxandotherunixsystems">Mac OS X and other UNIX systems</h3>
 <p>HomeGenie can also be installed on other systems (eg. Mac OS X and other UNIX based systems) by following the procedure described below.</p>
 <h4 id="installingprerequisites">Installing prerequisites</h4>
-<p>Enter the following command from terminal (<code>apt-get</code> is shown here, eventually replace it with whatever package manager
- is suitable for your operating system):</p>
+<p>Download and install <a href="https://www.mono-project.com/download/stable/">mono runtime</a>.</p>
+<p>Enter the following command from terminal (<code>apt-get</code> is shown here, eventually replace it with the package manager
+used in your system):</p>
 <pre><code class="bash language-bash">sudo apt-get install mono-runtime libmono-corlib2.0-cil libmono-system-web4.0-cil libmono-system-numerics4.0-cil libmono-system-serviceprocess4.0-cil libmono-system-data4.0-cil libmono-system-core4.0-cil libmono-system-servicemodel4.0a-cil libmono-windowsbase4.0-cil libmono-system-runtime-serialization-formatters-soap4.0-cil libmono-system-runtime-serialization4.0-cil libmono-system-xml-linq4.0-cil mono-dmcs
 </code></pre>
 <h4 id="optionaldependencies">Optional dependencies</h4>
