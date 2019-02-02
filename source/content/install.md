@@ -52,7 +52,7 @@ The UI can be also opened by right clicking on the tray icon.
 Follow the instruction to add the [Mono repository](https://www.mono-project.com/download/stable/#download-lin) to your system (only add the repository, do not install *mono*).
 If you already have a previous version of mono installed, upgrade it by running `sudo apt-get upgrade`.
 
-Download the *HomeGenie .deb package* file and install it:
+Install *HomeGenie Server* by entering the following commands:
 
 ```bash
 wget https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/homegenie_{{ release.version }}_all.deb
