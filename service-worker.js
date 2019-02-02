@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "bbaa7c10bdb217dee74b619124349257"
+    "revision": "271491d7f527c4e5565a58558e2ca2c4"
   },
   {
     "url": "content/raspberry.html",
@@ -2341,11 +2341,11 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "02414f49ad13c7889bc8754ff114c5f0"
   },
   {
     "url": "images/docs/configure_menu.jpg",
@@ -2381,47 +2381,63 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/interconnections_01.jpg",
+    "revision": "6b4e27ef27220fc820b3943f6d294e65"
+  },
+  {
+    "url": "images/docs/interconnections_01.png",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/package_repos.png",
-    "revision": "92e12e6e731146af0af8cfb251be1104"
+    "url": "images/docs/interconnections_02.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/program_editor_01.jpg",
-    "revision": "88f19f22be74f1d99bb74febb00412f4"
+    "url": "images/docs/interconnections_02.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/program_editor_01.png",
-    "revision": "995064402485e41b639151822cd5c5c1"
+    "url": "images/docs/interconnections_03.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/scheduler_calendar_01.jpg",
-    "revision": "54b91abf13bf120a2ca90b62fa256371"
+    "url": "images/docs/interconnections_04.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/scheduler_calendar_01.png",
-    "revision": "f5d09539edc6558728e34bd4f785ae0d"
+    "url": "images/docs/interconnections_04.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/scheduler_wizard_01.jpg",
-    "revision": "e9080d00d4f4b0f96ddf11c99668f8b9"
+    "url": "images/docs/interconnections_04b.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/scheduler_wizard_01.png",
-    "revision": "aacea54d78ca2ec8e3086ca4ce34271e"
+    "url": "images/docs/interconnections_04b.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/system_settings_01.jpg",
-    "revision": "ed9471f69345bd4f805aa380f9a6fe34"
+    "url": "images/docs/interconnections_05.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/system_settings_01.png",
-    "revision": "98a02c995bfd86276c95c914c78d2651"
+    "url": "images/docs/interconnections_05.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/villa.jpg",
-    "revision": "2df6d5269a804fd9a83fa25efc42f2e3"
+    "url": "images/docs/macro_record_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/macro_record_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/media_server_widget_00.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/package_repos.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/weather_options_01.jpg",

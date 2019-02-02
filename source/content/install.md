@@ -49,8 +49,8 @@ The UI can be also opened by right clicking on the tray icon.
 
 ### Ubuntu, Raspbian and others Debian derivatives
 
-Follow the instruction to add the [Mono repository]() to your system (only add the repository, do not install *mono*).
-If you already have a previous version of mono installed, upgrade it by running `apt-get upgrade`.
+Follow the instruction to add the [Mono repository](https://www.mono-project.com/download/stable/#download-lin) to your system (only add the repository, do not install *mono*).
+If you already have a previous version of mono installed, upgrade it by running `sudo apt-get upgrade`.
 
 Download _.deb package_ file and install it by double clicking on it, or by using gdebi command line tool:
 
