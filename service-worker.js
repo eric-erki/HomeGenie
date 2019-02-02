@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "6fc6fda7af98f693a60843cb0a71e039"
+    "revision": "27d7f33db5b427a00df775ee1e1dfd07"
   },
   {
     "url": "content/raspberry.html",
@@ -1101,7 +1101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "630e5b6805eeddd575fa2948502254d3"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2445,46 +2445,6 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/package_repos.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/package_repos.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/program_editor_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/program_editor_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_calendar_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_calendar_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_wizard_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/scheduler_wizard_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/system_settings_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/system_settings_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {

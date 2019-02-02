@@ -77,7 +77,7 @@ sudo apt-get install libttspico-utils
 sudo apt-get install arduino-mk empty-expect
 ```
 
-**Note** *HomeGenie requires mono runtime version 3.2 or later.*
+**Note** *HomeGenie requires mono runtime version 4.6.2 or later.*
 
 
 ### Mac OS X and other UNIX systems
