@@ -1001,7 +1001,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "b25959f2fce5eab4ee753094b12ba410"
+    "revision": "496fc487b97db5ceb00c0539e57a43e4"
   },
   {
     "url": "content/raspberry.html",
@@ -2333,7 +2333,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "5266b6e5def38885c51035028fc0b3f3"
+    "revision": "ebe822f97dd910c86e23eb353db8de68"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
@@ -2341,27 +2341,27 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "3f71d5abba7bdd1b5ac065c792714819"
+    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "21b36318ea414faa3dbc3821e977bc25"
+    "revision": "02414f49ad13c7889bc8754ff114c5f0"
   },
   {
     "url": "images/docs/configure_menu.jpg",
-    "revision": "228deba0785cfbf7aa4e62e7b59e6316"
+    "revision": "835c8a9997ccdd102ebd019f6503612c"
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "9f768b1a778e1110053c112b22c7553d"
+    "revision": "967eb447c7d749a286723c51bd262903"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "c1b3aa62205898f3d1157ce2b21ae663"
+    "revision": "efd5c0e7d47fc340d6e15bbbb6d25f9d"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "45511dbbd1733c184f33cf72a2604fa5"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2369,19 +2369,19 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
+    "revision": "901e33284519b08e2b721df7f172de1b"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "2c5628c71c2980eec5df16cfb72aa21f"
+    "revision": "2bf9ad612e9cedc80014be290222f7ac"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
-    "revision": "6b4e27ef27220fc820b3943f6d294e65"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/interconnections_01.png",
@@ -2409,6 +2409,10 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/interconnections_04.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_04b.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
@@ -2440,8 +2444,44 @@ self.__precacheManifest = [
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/package_repos.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/package_repos.png",
+    "revision": "92e12e6e731146af0af8cfb251be1104"
+  },
+  {
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "88f19f22be74f1d99bb74febb00412f4"
+  },
+  {
+    "url": "images/docs/program_editor_01.png",
+    "revision": "995064402485e41b639151822cd5c5c1"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.jpg",
+    "revision": "54b91abf13bf120a2ca90b62fa256371"
+  },
+  {
+    "url": "images/docs/scheduler_calendar_01.png",
+    "revision": "f5d09539edc6558728e34bd4f785ae0d"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "e9080d00d4f4b0f96ddf11c99668f8b9"
+  },
+  {
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "aacea54d78ca2ec8e3086ca4ce34271e"
+  },
+  {
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "ed9471f69345bd4f805aa380f9a6fe34"
+  },
+  {
+    "url": "images/docs/system_settings_01.png",
+    "revision": "98a02c995bfd86276c95c914c78d2651"
+  },
+  {
+    "url": "images/docs/villa.jpg",
+    "revision": "2df6d5269a804fd9a83fa25efc42f2e3"
   },
   {
     "url": "images/docs/weather_options_01.jpg",
@@ -2725,7 +2765,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/logos/android_logo.png",
-    "revision": "9d258cb09c821961e092b9b459399d9e"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/logos/bpilogo.jpg",
