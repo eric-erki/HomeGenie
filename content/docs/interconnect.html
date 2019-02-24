@@ -11,7 +11,7 @@ entity.</p>
 <h2 id="homegenieinterconnections">HomeGenie Interconnections</h2>
 <p>During the development of HomeGenie, there was one vision behind the whole
 design process, a paradigm to follow, which was the one of the
-<em>Central Nervous System</em>. </p>
+<em>Central Nervous System</em>.</p>
 <p>Following that paradigm, a single HomeGenie unit can thus be imagined
 as a <em><a href="https://en.wikipedia.org/wiki/Neuron">nerve cell</a></em> that process
 and transmit information through event signals.
@@ -69,11 +69,11 @@ While the event forwarding approach is meant to work as a <em>one-to-one</em>
 interconnection, this method allows <em>many-to-many</em> interconnections.</p>
 <p>In fact this approach relays on the MQTT service which is a sort of
 "chat" service for sensors, smart devices and machines in general.</p>
-<p>In this scenario interconnected servers will publish module
-events through an MQTT service and that will so be received by all other
-servers connected to the same MQTT network.</p>
-<p>In order for this to work we then need an MQTT service endpoint that
-must be configured in the MQTT Network settings dialog.</p>
+<p>In this scenario interconnected HomeGenie servers will publish module
+events to a MQTT broker service so that those events will also be received
+by all other servers connected to the same MQTT network.</p>
+<p>In order for this approach to work we then need an MQTT broker service endpoint
+that must be properly configured in the "MQTT Network" program settings dialog.</p>
 <div class="media-container">
     <img self="size-medium" src="images/docs/interconnections_04b.jpg" />
 </div>
@@ -81,7 +81,7 @@ must be configured in the MQTT Network settings dialog.</p>
 be installed as an additional feature from "Interfaces/Protocols" category
 of HomeGenie package repository (see <em>"Installing additional drivers and features"</em>
 in the <a href="#/docs/setup">Setup</a> page), in which case the HomeGenie server itself
-will provide the MQTT service.</p>
+will provide the MQTT broker service.</p>
 <div class="media-container">
     <img self="size-medium" src="images/docs/interconnections_04.jpg" />
 </div>

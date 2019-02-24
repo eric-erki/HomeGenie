@@ -24,18 +24,17 @@ bottom-right corner.
 An automation program can be coded using one of the following programming
 languages:</p>
 <ul>
-<li>C#</li>
+<li>dotnet C#</li>
 <li>Javascript</li>
 <li>Python</li>
-<li>Ruby</li>
 </ul>
-<p>Despite of the selected language, all programs can use the same set of <a href="api/ape/annotated.html">Helper Classes</a>
+<p>Despite of the selected language, all programs can use the same set of <a href="../../api/ape/annotated.html">Helper Classes</a>
 to access <em>HG</em> resources or external services in the same way.</p>
 <div class="media-container">
     <img self="size-medium" src="https://lh3.googleusercontent.com/i_DtXr1NEVuA1J4CLpC1_GHsY9zUHFMUCM2CQUoN4vn028zP6vQ3kCwAfMdX7ULKOA_LuKb9oiwqaq6xk3ROyNrv0h88iDieR5bMV96oAExtyF2kOIBih0qhEwkX3e-vJaOZxgyanc_vNiZZUvTFews0L94AQcSVQxUsLBQxuZcK9FuE03-tkDhNQFxX-Hxv4CNQgeJ5W-H_9huh8WzyA9W6GlNgkJ8DaAdn1Bw1VJwj7w-9lo-evUYrNHcWDw1oWwkzYdpO5HJEtpHM0-Dl56R2GeO62ZKNAW0HOvopCWF0yKQtuzJ3DOecHuV8_hoZghnh6PGBERtZwk9_bVbfIrO7pUJW9F8WeUU9txWfRiMgerMqGc9lMZqgt7st3vq_NAnzadMg3dMDjx2LfzfREEjRwm6Oi-wPuAsSc9ZFHseW6qPiyfhKhMJmscZhxWFzCyywo_69tB5LaGXS_1z9ZB9CxefqXynheq9JDiaXQo88_ppVWulXSKMujmAKQcIFbgRjx8DxZlkMxspGhp49cY0cSBQy2eRin-AZVCbDGV4=w1172-h783-no" />
 </div>
 <h3 id="exampleturningofflightsinagivengroup">Example - Turning off lights in a given group</h3>
-<p>The following example is using the <a href="api/ape/a00006.html">ModulesManager</a> helper class to turn off all lights in the <em>Porch</em> group:</p>
+<p>The following example is using the <a href="../../api/ape/a00007.html">ModulesManager</a> helper class to turn off all lights in the <em>Porch</em> group:</p>
 <pre><code class="javascript language-javascript">// C#
 var lights = Modules.InGroup("Porch");
 porchLights.Off();
@@ -50,23 +49,19 @@ lights.off();
 // Python
 lights = hg.Modules.InGroup('Porch')
 lights.Off()
-
-// Ruby
-lights = hg.Modules.InGroup("Porch")
-lights.Off()
 </code></pre>
 <p>so all of these are very similar, just using own language specific syntax.</p>
 <h4 id="remarks">Remarks</h4>
-<p>The <strong>hg.</strong> prefix, used to address <em><a href="api/ape/annotated.html">Helper Classes</a></em>,
+<p>The <strong>hg.</strong> prefix, used to address <em><a href="../../api/ape/annotated.html">Helper Classes</a></em>,
 can be omitted when using C# but must be used for all other languages.</p>
 <p>The <strong>camelCase</strong> coding practice can be adopted for <em>Javascript</em> programs
 when calling helper methods.</p>
-<p>Some <em><a href="api/ape/annotated.html">Helper Class</a></em> methods may require a 
+<p>Some <em><a href="../../api/ape/annotated.html">Helper Class</a></em> methods may require a
 callback function as an argument.
 The following examples show how callbacks can be passed in the various
 language flavours.</p>
 <h3 id="exampleusingcallbacksindifferentlanguages">Example - Using callbacks in different languages</h3>
-<p>The <a href="api/ape/a00001.html#afcf0d379d8dd2da00c2adf1c3c9996f3">When.SystemStarted</a> method
+<p>The <a href="../../api/ape/a00002.html#afcf0d379d8dd2da00c2adf1c3c9996f3">When.SystemStarted</a> method
 requires a callback as argument:</p>
 <pre><code class="javascript language-javascript">// Output a speech message from the speaker
 // right after HomeGenie is started and ready.
@@ -75,7 +70,7 @@ requires a callback as argument:</p>
 When.SystemStarted(()=&gt;{
     Program.Say("HomeGenie is now ready!");
     return true;
-}); 
+});
 
 // Javascript
 hg.when.systemStarted(function(){
@@ -88,28 +83,20 @@ def started_handler():
     hg.Program.Say('HomeGenie is now ready!')
     return True
 hg.When.SystemStarted(started_handler)
-
-// Ruby
-started_fn = lambda {
-  hg.Program.Say("HomeGenie is now ready!")
-  return true
-}
-hg.When.SystemStarted(started_fn)
 </code></pre>
 <p>Further documentation about specific syntax of each language can be found
 on the following pages (or just searching the web):</p>
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/aa645597%28v=vs.71%29.aspx">C#</a></li>
+<li>dotnet <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/">C#</a></li>
 <li>Javascript - <a href="https://github.com/sebastienros/jint">Jint</a></li>
 <li>Python - <a href="http://ironpython.net/documentation/">IronPython</a></li>
-<li>Ruby - <a href="http://ironruby.net/documentation/">IronRuby</a></li>
 </ul>
 <h2 id="programcodeandstartupcode">Program Code and Startup Code</h2>
 <p>An automation program is split into two parts. The <em>Program Code</em>, which
 is the main code, and the <em>Startup Code</em>.</p>
 <p><em>Startup Code</em> is a piece of code that can be used to set various program
 options and also to tell <em>HG</em> when to run the main program code by using
-the <a href="api/ape/a00009.html#a34a937a2bc052615d27137c3663d10c6">Program.Run</a>
+the <a href="../../api/ape/a00010.html#a34a937a2bc052615d27137c3663d10c6">Program.Run</a>
 instruction in it.</p>
 <p>When the program is idle (thus the program code is not running),
 the <em>Startup Code</em> is evaluated every minute or as soon as a new event
@@ -121,24 +108,24 @@ if (Scheduler.IsScheduling("0 7 * * *"))
 </code></pre>
 <p>Other instructions commonly used in the <em>Startup Code</em> are:</p>
 <ul>
-<li><a href="api/ape/a00009.html#aba65b477efba06ac22a4f908881bbece">Program.Setup</a></li>
-<li><a href="api/ape/a00009.html#ab4c0baea094fcf0f29c57cf1f157c68b">Program.UseWidget</a></li>
-<li><a href="api/ape/a00009.html#a77342214dc230ce4eab47ffc4c10bd7f">Program.AddOption</a></li>
-<li><a href="api/ape/a00009.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b">Program.AddFeature</a></li>
+<li><a href="../../api/ape/a00010.html#aba65b477efba06ac22a4f908881bbece">Program.Setup</a></li>
+<li><a href="../../api/ape/a00010.html#ab4c0baea094fcf0f29c57cf1f157c68b">Program.UseWidget</a></li>
+<li><a href="../../api/ape/a00010.html#a77342214dc230ce4eab47ffc4c10bd7f">Program.AddOption</a></li>
+<li><a href="../../api/ape/a00010.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b">Program.AddFeature</a></li>
 </ul>
 <p>The use of these command is described later in this page.</p>
 <h4 id="remarks-1">Remarks</h4>
-<p>when <a href="api/ape/a00009.html#a34a937a2bc052615d27137c3663d10c6">Program.Run</a>
+<p>when <a href="../../api/ape/a00010.html#a34a937a2bc052615d27137c3663d10c6">Program.Run</a>
 is called in the <em>Startup Code</em>,
 the program's code will run only after that <em>Startup Code</em> reaches it's
 end. So it's a good practice not to put any
 long-time consuming operation or infinite loop in the <em>Startup Code</em>.</p>
 <p><em>Startup Code</em> and <em>Program Code</em> are not running in the same scope.
 Data between them that can be shared by using
-<a href="api/ape/a00004.html#a016f9d7512c4407acbfc2d7c72d02a17">Modules parameters</a>
+<a href="../../api/ape/a00005.html#a016f9d7512c4407acbfc2d7c72d02a17">Modules parameters</a>
 and other structures such as
-<a href="api/ape/a00009.html#a111c3e247c9a22cf44e032bfb568f876">Program Store</a>
-and <a href="api/ape/a00012.html">System Settings</a>.</p>
+<a href="../../api/ape/a00010.html#a111c3e247c9a22cf44e032bfb568f876">Program Store</a>
+and <a href="../../api/ape/a00013.html">System Settings</a>.</p>
 <p><a name="modules"></a></p>
 <h2 id="virtualmodulesprogrammoduleandwidgets">Virtual Modules, Program Module and Widgets</h2>
 <p>Virtual Modules (or just modules) are used in <em>HG</em> as an abstraction for devices or services. So, each of them, represent
@@ -147,11 +134,11 @@ light switch device will have a parameter called <em>Status.Level</em> for indic
 (1 = turned on, 0 = turned off); a temperature sensor module will have a <em>Sensor.Temperature</em> parameter… and so on.<br/></p>
 <p>Each module is identified by <strong>Domain</strong>, <strong>Address</strong>, <strong>Type</strong> and <strong>Widget</strong>. The <strong>Domain</strong> is used as a group for same class
 of modules. Example of domain names are: <code>HomeAutomation.ZWave</code>, <code>HomeAutomation.PhilipsHue</code>, <code>HomeAutomation.X10</code>.
-The <strong>Address</strong>, that is usually a number, is used to identify uniquely each module belonging to the same domain. The <strong>Type</strong>
+The <strong>Address</strong> (usually a number) is used to identify uniquely each module belonging to the same domain. The <strong>Type</strong>
 will define what kind of module is. Commonly used types are: <code>Program</code>, <code>Switch</code>, <code>Light</code>, <code>Dimmer</code>, <code>Sensor</code>,
 <code>Temperature</code>, <code>Siren</code>, <code>Fan</code>, <code>Thermostat</code>, <code>Shutter</code>, <code>DoorWindow</code>, <code>DoorLock</code>,
 <code>MediaTransmitter</code>, <code>MediaReceiver</code>. The <strong>Widget</strong> will determine how a module will be displayed in the User
-Interface. There are already a bunch of widgets available in <em>HG</em>, but custom ones can also be designed using the 
+Interface. There are already a bunch of widgets available in <em>HG</em>, but custom ones can also be designed using the
 integrated <a href="widgets.html">Widget Editor</a>.</p>
 <p>Also automation programs have a module associated to each of them, so program's data can be displayed in the
 UI using a widget. The standard widget that can be used for a program is a simple button that once clicked runs the
@@ -162,14 +149,14 @@ Program.UseWidget("homegenie/generic/program");
 </code></pre>
 <p>A program can also create and handle futher modules by using the following functions:</p>
 <ul>
-<li><a href="api/ape/a00009.html#a6ce0c82ab9edb50be6689919cf29c1ca">Program.AddVirtualModules</a></li>
-<li><a href="api/ape/a00009.html#ad74a2a82101dd80e17244fd03eaf181f">Program.AddVirtualModule</a></li>
-<li><a href="api/ape/a00009.html#ac1c5f107619fed38f6cb9d9224fd3506">Program.RemoveVirtualModule</a></li>
+<li><a href="../../api/ape/a00010.html#a6ce0c82ab9edb50be6689919cf29c1ca">Program.AddVirtualModules</a></li>
+<li><a href="../../api/ape/a00010.html#ad74a2a82101dd80e17244fd03eaf181f">Program.AddVirtualModule</a></li>
+<li><a href="../../api/ape/a00010.html#ac1c5f107619fed38f6cb9d9224fd3506">Program.RemoveVirtualModule</a></li>
 </ul>
 <h2 id="programoptions">Program Options</h2>
 <p>Automation programs can have an options dialog in the UI, so that the user may configure some aspect of it. As an example
 we can look at the <em>Weather Underground</em> program. This program needs to know the city name so to display weather data of
-the given location. </p>
+the given location.</p>
 <h3 id="exampleaddingafieldtotheprogramoptionsdialog">Example - Adding a field to the program options dialog</h3>
 <pre><code class="csharp language-csharp">// Add "city" text field to the program options UI dialog
 Program.AddOption(
@@ -182,8 +169,8 @@ Program.AddOption(
 <h3 id="examplegettingtheenteredvalueofaprogramoption">Example - Getting the entered value of a program option</h3>
 <pre><code class="csharp language-csharp">var location = Program.Option("Location").Value;
 </code></pre>
-<p>The <a href="api/ape/a00009.html#a77342214dc230ce4eab47ffc4c10bd7f">Program.AddOption</a> instruction is meant to be used inside
-the <a href="api/ape/a00009.html#aba65b477efba06ac22a4f908881bbece">Program.Setup</a> delegate.</p>
+<p>The <a href="../../api/ape/a00010.html#a77342214dc230ce4eab47ffc4c10bd7f">Program.AddOption</a> instruction is meant to be used inside
+the <a href="../../api/ape/a00010.html#aba65b477efba06ac22a4f908881bbece">Program.Setup</a> delegate.</p>
 <h2 id="programfeatures">Program Features</h2>
 <p>In a similar way as described for the program options dialog, module also have an UI options dialog where an automation
 program can add its own options so to let the user configure different per-module values. As an example we can look
@@ -200,8 +187,9 @@ Program.AddFeature(
     "slider:0:3600:1"); // &lt;-- UI field type and parameters
 Program.Run();
 </code></pre>
-<p>The last parameter of the <a href="api/ape/a00009.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b">Program.AddFeature</a> function will select the type of control that will be displayed in 
-the UI module options dialog. The following are the currently implemented UI field types:</p>
+<p>The last parameter of the <a href="../../api/ape/a00010.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b">Program.AddFeature</a>
+function will select the type of control that will be displayed in the UI module options dialog.
+The following are the currently implemented UI field types:</p>
 <ul>
 <li><code>text</code>
 <br/>a simple text field</li>
@@ -222,8 +210,8 @@ the UI module options dialog. The following are the currently implemented UI fie
 </ul>
 <h2 id="reactingtomoduleevents">Reacting to module events</h2>
 <p>Each time a module parameter is updated a new event is raised in the system. By using either the
-<a href="api/ape/a00001.html#a2345d703592c2fe90284b13ce7ac2650">ModuleParameterIsChanging</a> or the
-<a href="api/ape/a00001.html#a7e82383574aeff32db8d09d4eb916718">ModuleParameterChanged</a>
+<a href="../../api/ape/a00002.html#a2345d703592c2fe90284b13ce7ac2650">ModuleParameterIsChanging</a> or the
+<a href="../../api/ape/a00002.html#a7e82383574aeff32db8d09d4eb916718">ModuleParameterChanged</a>
 function, a program can listen to the system event stream and react in consequence of a module event.
 The difference between <em>ModuleParameterIsChanging</em> and <em>ModuleParameterChanged</em>, is that the first one is called before the
 latter one. In most situations <em>ModuleParameterChanged</em> will be used.</p>
@@ -249,8 +237,8 @@ When.ModuleParameterChanged((module, parameter) =&gt; {
         {
           module.Off();
           Program.Notify("Turn Off Delay",
-            module.Instance.Name + "&lt;br&gt;" + 
-            module.Instance.Address + 
+            module.Instance.Name + "&lt;br&gt;" +
+            module.Instance.Address +
             " switched off.");
         }
       });
@@ -275,16 +263,8 @@ hg.program.goBackground();
 hg.When.ModuleParameterChanged(module_updated_fn)
 hg.Program.GoBackground()
 </code></pre>
-<h4 id="ruby">Ruby</h4>
-<pre><code class="ruby language-ruby">module_updated_fn = lambda { |mod,par|
-    # put code here using "mod" and "par" objects
-    return true
-}
-hg.When.ModuleParameterChanged(module_updated_fn)
-hg.Program.GoBackground()
-</code></pre>
 <p>Automation programs can also raise events, so the system (and other programs as well) will acknowledge when a module has been updated.
-The function <a href="api/ape/a00009.html#af51db91ed13809da94337aac3c1053b7">Program.RaiseEvent</a> is meant for that.</p>
+The function <a href="../../api/ape/a00010.html#af51db91ed13809da94337aac3c1053b7">Program.RaiseEvent</a> is meant for that.</p>
 <p><a name="commands"></a></p>
 <h2 id="reactingtocommands">Reacting to commands</h2>
 <p>When the user click a button or any other control of a module widget, an <a href="api/mig/overview.html">API</a> command request is
@@ -295,7 +275,7 @@ HTTP requests are made:</p>
 <pre><code>/api/HomeAutomation.ZWave/5/Control.On
 /api/HomeAutomation.ZWave/5/Control.Off
 </code></pre>
-<p>So if an automation program creates a <a href="api/ape/a00009.html#ad74a2a82101dd80e17244fd03eaf181f">virtual module</a> of switch type in the domain <em>MyProgram.Domain</em></p>
+<p>So if an automation program creates a <a href="../../api/ape/a00010.html#ad74a2a82101dd80e17244fd03eaf181f">virtual module</a> of switch type in the domain <em>MyProgram.Domain</em></p>
 <pre><code class="csharp language-csharp">Program.AddVirtualModule(
     "MyProgram.Domain",          // &lt;-- domain name
     "1",                         // &lt;-- module address
@@ -303,11 +283,11 @@ HTTP requests are made:</p>
     "homegenie/generic/switch"); // &lt;-- widget used to display this module
 </code></pre>
 <p>it will be able to handle commands addressed to this module by listening to API calls going to the <em>MyProgram.Domain</em> domain.
-The <a href="api/ape/a00001.html#a58515455945c35783cde47d21f844663">When.WebServiceCallReceived</a> helper function is used for this purpose:</p>
+The <a href="../../api/ape/a00002.html#a58515455945c35783cde47d21f844663">When.WebServiceCallReceived</a> helper function is used for this purpose:</p>
 <h4 id="csharp-1">CSharp</h4>
 <pre><code class="csharp language-csharp">// handle requests of type http://&lt;hg_address&gt;/api/MyProgram.Domain/...
 When.WebServiceCallReceived("MyProgram.Domain", (args) =&gt; {
-    // All API requests going to the "MyProgram.Domain" 
+    // All API requests going to the "MyProgram.Domain"
     // will hit this piece of code.
     // e.g. for the "On" command, &lt;args&gt; will contain the string
     // "MyProgram.Domain/1/Control.On", so...
@@ -337,7 +317,7 @@ When.WebServiceCallReceived("MyProgram.Domain", (args) =&gt; {
 });
 Program.GoBackground();
 </code></pre>
-<p>So when the user will click the <em>On</em> and <em>Off</em> buttons of the virtual module widget, the code above will raise an event 
+<p>So when the user will click the <em>On</em> and <em>Off</em> buttons of the virtual module widget, the code above will raise an event
 that will update the module <em>Status.Level</em> property with <em>1</em> or <em>0</em>. This event will be also received by the widget that will so
 update the displayed data accordingly.</p>
 <h4 id="javascript-1">Javascript</h4>
@@ -356,17 +336,8 @@ def handle_request_fn(args):
 hg.When.WebServiceCallReceived("MyProgram.Domain", handle_request_fn)
 hg.Program.GoBackground()
 </code></pre>
-<h4 id="ruby-1">Ruby</h4>
-<pre><code class="ruby language-ruby"># handle requests of type http://&lt;hg_address&gt;/api/MyProgram.Domain/...
-handle_request_fn = lambda { |args|
-    # handle the request here....
-    return "Ok"
-}
-hg.When.WebServiceCallReceived("MyProgram.Domain", handle_request_fn)
-hg.Program.GoBackground()
-</code></pre>
 <h2 id="commonoperationsonmodules">Common operations on modules</h2>
-<p>See the <a href="api/ape/a00006.html">ModulesManager</a> helper class documentation to find out all available functions and properties.</p>
+<p>See the <a href="../../api/ape/a00007.html">ModulesManager</a> helper class documentation to find out all available functions and properties.</p>
 <h3 id="exampleselectingmodules">Example - Selecting modules</h3>
 <pre><code class="csharp language-csharp">// Selecting dimmer lights in the same group
 var roomDimmers = Modules.InGroup("Living Room").OfDeviceType("Dimmer");

@@ -15,7 +15,7 @@ entity.
 
 During the development of HomeGenie, there was one vision behind the whole
 design process, a paradigm to follow, which was the one of the
-*Central Nervous System*. 
+*Central Nervous System*.
 
 Following that paradigm, a single HomeGenie unit can thus be imagined
 as a *[nerve cell](https://en.wikipedia.org/wiki/Neuron)* that process
@@ -94,12 +94,12 @@ interconnection, this method allows *many-to-many* interconnections.
 In fact this approach relays on the MQTT service which is a sort of
 "chat" service for sensors, smart devices and machines in general.
 
-In this scenario interconnected servers will publish module
-events through an MQTT service and that will so be received by all other
-servers connected to the same MQTT network.
- 
-In order for this to work we then need an MQTT service endpoint that
-must be configured in the MQTT Network settings dialog.
+In this scenario interconnected HomeGenie servers will publish module
+events to a MQTT broker service so that those events will also be received
+by all other servers connected to the same MQTT network.
+
+In order for this approach to work we then need an MQTT broker service endpoint
+that must be properly configured in the "MQTT Network" program settings dialog.
 
 <div class="media-container">
     <img self="size-medium" src="images/docs/interconnections_04b.jpg" />
@@ -109,7 +109,7 @@ The MQTT service can be provided by a stand-alone server or it can also
 be installed as an additional feature from "Interfaces/Protocols" category
 of HomeGenie package repository (see *"Installing additional drivers and features"*
 in the [Setup](#/docs/setup) page), in which case the HomeGenie server itself
-will provide the MQTT service.
+will provide the MQTT broker service.
 
 <div class="media-container">
     <img self="size-medium" src="images/docs/interconnections_04.jpg" />

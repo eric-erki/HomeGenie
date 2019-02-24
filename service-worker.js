@@ -965,11 +965,11 @@ self.__precacheManifest = [
   },
   {
     "url": "content/devs/programs.html",
-    "revision": "b75e09c990d4c92e792003f07c951342"
+    "revision": "d513b55d884f20a45138bb52b1ec2ff8"
   },
   {
     "url": "content/devs/widgets.html",
-    "revision": "59e993abc29d899e618f992a38204e8b"
+    "revision": "8916fdd2bf1165490381e106d8d6a5c6"
   },
   {
     "url": "content/docs/configure.html",
@@ -977,7 +977,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/docs/interconnect.html",
-    "revision": "cc1baa218e0c2cd2e2183d8188b806a0"
+    "revision": "d193372f8ff17502c18823079217b31a"
   },
   {
     "url": "content/docs/remotes.html",

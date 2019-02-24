@@ -5,8 +5,8 @@ are abstracted in HomeGenie as generic *modules*.
 Depending on the type, a module can then be presented to the end-user in
 the web interface with a different *widget*.
 
-For example, to display a light dimmer module, the *dimmer* widget will 
-be used as it will be for all modules of the same type. 
+For example, to display a light dimmer module, the *dimmer* widget will
+be used as it will be for all modules of the same type.
 
 <div class="media-container">
     <img _self_="size-small" src="images/docs/widgets_dimmer_type.jpg" />
@@ -14,7 +14,7 @@ be used as it will be for all modules of the same type.
 
 So, *widgets* are reusable UI components that are employed to display data
 and information of a bound *module* and that may also contain some controls
-(such as buttons, sliders, ...) for interacting with it. 
+(such as buttons, sliders, ...) for interacting with it.
 
 Technically speaking a widget is made out of two piece of code:
 one is the *HTML* code for the view, which so determine how the widget will
@@ -81,7 +81,7 @@ keys or press the **<i class="material-icons">check_circle</i>Run/Preview** butt
 #### Example - HTML code for a basic widget container
 ```html
 <!-- main widget container -->
-<div data-ui-field="widget" 
+<div data-ui-field="widget"
      class="ui-overlay-shadow ui-corner-all ui-body-inherit hg-widget-a">
      <!-- widget content begin -->
     <h1>Simple widget with a button</h1>
@@ -138,7 +138,7 @@ Other objects and properties available through the `$$` object are:
 
 #### `$$.field(...)`
 
-This method is used to get the *jQuery* object for the widget's element 
+This method is used to get the *jQuery* object for the widget's element
 having the `data-ui-field` attribute set to the given `<field_name>`.
 
 **Syntax**
@@ -204,10 +204,10 @@ Invokes a <a href="api/mig/overview.html" target="_blank">Web API</a> method.
 
 **Syntax**
 ```javascript
-$$.apiCall('<api_method>', 
-           '<domain>', 
-           '<address>', 
-           '<method_options>', 
+$$.apiCall('<api_method>',
+           '<domain>',
+           '<address>',
+           '<method_options>',
            <callback_fn>)
 ```
 **Example**
@@ -236,13 +236,13 @@ $$.apiCall('<api_method>',
    $$.locales
 
  Blink a widget field and the status led image (if present)
-   $$.signalActity('<widget_field_name>') 
+   $$.signalActity('<widget_field_name>')
 
 */
 ```
 
 
-### Old widget version 
+### Old widget version
 
 The *Javascript* code implementation discussed so far is the recommended
 way for writing a widget's controller and it is called **v2**.
@@ -309,11 +309,11 @@ The `module` object has the following property fields: `Domain`, `Address`,
 
 As shown in the *ButtonClicked* handler, in most cases, when the user
 click a widget control, an API request is made. The end-point of the
-request will be usually an automation program that is [listening](programs.html#commands)
+request will be usually an automation program that is listening
 to API calls for that module domain.
 
 Prefer using **v2** implementation since the **v1** implementation might
-be deprecated at some point. 
+be deprecated at some point.
 
 Both *v1* and *v2* widgets can use *HG Javascript API*.
 
@@ -339,7 +339,7 @@ utils.ConfirmPopup('Delete item', 'Are you sure?', function(confirmed) {
     }
 });
 
-// format a date 
+// format a date
 var today = utils.FormatDate(new Date());
 // format a date with time
 var todayTime = utils.FormatDateTime(new Date());
