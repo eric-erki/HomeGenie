@@ -10,13 +10,15 @@ This is mainly intended for administration purposes to configure and access all 
 <a name="HomeGeniePlus"></a>
 ## HomeGenie Plus for Android
 
-Specifically designed to be a Control Panel for the end-user, **HomeGenie Plus** is a feature rich mobile client for HomeGenie.
+Specifically designed to be a Control Panel for the end-user, **HomeGenie Plus** is a feature rich mobile client for your smart home and smart applications.
 
+<div align="center">
 <a href="https://play.google.com/store/apps/details?id=com.glabs.homegenieplus&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img width="200" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge-border.png" /></a>
-
+</div>
 
 ### Main features
 
+- Multi-standard: can connect not just to HomeGenie server but also directly to [HomeGenie Mini](https://github.com/genielabs/homegenie-mini), Belkin Wemo, Philps Hue, TPLink, LIFX and any UPnP/DLNA media server or renderer (TV)
 - Adaptive layout: automatically arranges widgets to best fit both on phone and tablet.
 - Voice control
 - UPnP/DLNA both browser and renderer control
@@ -26,7 +28,7 @@ Specifically designed to be a Control Panel for the end-user, **HomeGenie Plus**
 - Module preferences: each client device can have its own settings and preference for configured modules.
 - "Mini" view: some widgets, as the ones for lights and appliances, can be minified and hide extra options so that they just appear as a quick toggle button.
 - Configurable groups: allows choosing modules and groups that will be available to the client device. If HomeGenie server has password protection enabled, only the administrator can change the configuration in order to limit the access from the client.
-
+- Embedded automation program engine and API that allow adding custom automation logic using JavaScript
 
 #### Screenshots - Phone
 
@@ -65,25 +67,17 @@ Specifically designed to be a Control Panel for the end-user, **HomeGenie Plus**
     <img self="size-medium" src="images/hgplus/hgplus_14.jpg" />
 </div>
 
-Feel free to submit any issue or feature request using the following link:
 
-- [HomeGenie Plus issue reporting and features request](https://github.com/genielabs/homegenie-plus-android/issues)
-- [HomeGenie Plus discussion thread on HG forum](http://www.homegenie.it/forum/index.php?topic=1142)
+## Open Source clients
 
+The open source clients for Android and Windows Phone are meant to be an example for developers who want to build their own custom client
+using HomeGenie API.
 
-## Open Source client for Android
+### Android app source code
 
-The open source client for Android and Windows Phone are meant to be a quick shortcut for accessing your HomeGenie server. This is still intended
-to be used for administration and testing purposes as it will give full access to HomeGenie server.
-
-
-### App and source code links
-
-- [HomeGenie on Play Store](https://play.google.com/store/apps/details?id=com.glabs.homegenie)
 - [HomeGenie for Android on github](https://github.com/genielabs/HomeGenie-Android)
 
-
-## Old Windows Phone 8.x client (source code only)
+### Windows Phone 8.x client source code
 
 - [HomeGenie for Windows Phone on github](https://github.com/genielabs/HomeGenie-WindowsPhone)
 

@@ -1,6 +1,6 @@
 ## Scheduling
 
-With the *Scheduler*, which is available from the *Configure* menu, 
+With the *Scheduler*, which is available from the *Configure* menu,
 *HomeGenie* can be programmed to take some actions on time based occurrences.
 
 The main *Scheduler* page is the calendar view that shows programmed events
@@ -15,21 +15,21 @@ The time-line of an event will have a yellow bar to indicate the time ranges
 where the event occurs. If it's grayed out it means that the occurrence is
 in the future and has not occurred yet. Passing the pointer over it
 will display a popup with a summary of the event and its last/next
-occurrence (see above picture). 
+occurrence (see above picture).
 
 It can also have some indicators on the right:
 
-&nbsp;&nbsp; <i class="material-icons bigger">check_box</i> number of modules bound to the event
+&nbsp;&nbsp; <i class="material-icons bigger">check_box</i> number of modules bound to the scheduled event
 
-&nbsp;&nbsp; <i class="material-icons bigger">code</i> a script is associated with the event
+&nbsp;&nbsp; <i class="material-icons bigger">code</i> a script is associated with the scheduled event
 
 
 ### Cron event Wizard
 
-When adding or modifying an event, the *Cron event Wizard* window will
-be shown, where we can edit occurrence, bound modules and associated script.
+When adding or modifying a scheduled event, the *Cron event Wizard* window will
+be shown, there we can edit occurrences, bound modules and associated script to run.
 
-An event should at least define the occurrences, while modules and script are
+An event should at least define the occurrences, while bound modules and script are
 optional.
 
 <div class="media-container">
@@ -39,7 +39,7 @@ optional.
 
 #### Occurrence
 
-In the *occurrence* panel of the wizard we can define the main data of the event. 
+From the *occurrence* panel of the scheduler wizard we can define the main data of the event.
 
 **Name and description**
 
@@ -60,10 +60,10 @@ Notice that once an event is created it's name cannot be modified.
 
 **Event type**
 
-There are three types of event: 
+There are three types of event:
 
-- **standard**: can be defined by one or more occurrence of time and/or time range
-and can optionally be limited to certain days or months.  
+- **standard**: can be defined by one or more occurrence of time and/or time ranges
+and can optionally be limited to certain days or months.
 - **date period**: same as *standard* event but it will only be valid during a
 given period of the year.
 - **custom cron expression**: can be defined with textual expressions that are described
@@ -77,12 +77,12 @@ In the modules panel we can select modules that are bound to the event and
 that can be operated by the associated script.
 
 
-#### Script 
+#### Script
 
-The script code entered in this panel, will be executed on every occurrence of the
-event. The language used is *Javascript* and all HomeGenie *helper classes* 
-accessible to automation programs can also be used here with the
-following objects:
+The script code entered in this panel, will be executed on every occurrence of an
+event. The language used is *JavaScript* and all HomeGenie Server *Helper Classes*,
+accessible to standard automation programs, are also exposed to the script through
+the following objects:
 
 - `$$.modules` - ModulesHelper
 - `$$.program` - ProgramHelper
@@ -95,19 +95,19 @@ following objects:
 - `$$.knx` - KnxHelper
 - `$$.scheduler` - SchedulerHelper
 
-See <a href="api/ape/annotated.html" target="_blank">Helper Class documentation</a> for a detailed description.
+See [Helper Classes]({{root}}api/ape/annotated.html) documentation for a detailed description.
 
 In addition to that, an event script can use some special objects/methods:
 
-- `$$.boundModules`: 
-a *[ModulesHelper](http://localhost:63342/HomeGenie-site/api/ape/a00004.html)* object containing modules selected in the *Modules* panel for the event.
+- `$$.boundModules`:
+a *[ModulesHelper]({{root}}api/ape/a00004.html)* object containing modules selected in the *Modules* panel for the event.
 For example for turning on all bound modules we'll use: `$$.boundModules.on()`.
-- `$$.onPrevious()`: 
+- `$$.onPrevious()`:
 boolean value indicating if the event was scheduled in the previous minute.
-- `$$.onNext()`: 
+- `$$.onNext()`:
 boolean value indicating if the event will be also scheduled in the next minute.
-- `$$.data(k[,v])`: 
-function to store data for this event and that will be persisted across each occurrence.
+- `$$.data(k[,v])`:
+function to store data for this event and that will be available to the script across each occurrence.
 - `$$.onUpdate(function(m,p))`:
 used to set an handler for listening to modules events. Once registered the handler will be called even
 if the event is not scheduled.
@@ -187,7 +187,7 @@ Cron expressions can also be grouped using parenthesis and combined using the fo
 ```
 
 
-### Cron variables, sum and subtract 
+### Cron variables, sum and subtract
 
 An event can also be recalled in a cron expression by using the **@** symbol followed by
 the name of the event.
@@ -206,15 +206,15 @@ See the next example.
 
 There are also a few built-in special events that can be used to reference
 **sunrise** and **sunset** times:
- 
+
  - SolarTimes.Sunrise
  - SolarTimes.Sunset
  - SolarTimes.SolarNoon
- 
+
 **Example 9** From half an hour before sunrise to 45 minutes after sunset
 only during summer holidays
 
 ```crontab
 (@SolarTimes.Sunrise - 30 > @SolarTimes.Sunset + 45) ; @Holidays.Summer
 ```
- 
+

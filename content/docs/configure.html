@@ -1,14 +1,14 @@
 <h2 id="configuringgroups">Configuring groups</h2>
 <p>Smart devices and services (also simply called <em>modules</em>) can be organized
 into <em>control groups</em>.</p>
-<p>From the <strong><i class="material-icons">settings</i>Configure</strong> menu 
+<p>From the <strong><i class="material-icons">settings</i>Configure</strong> menu
 select the <strong><i class="material-icons">dashboard</i>Groups</strong> option to
 add and manage groups.
 Click the <strong><i class="material-icons">add</i>Add Group</strong> button located
 in the <em>bottom bar</em> to add a new group.</p>
 <p>To edit a group select it from the list. The group configuration page will be opened.
 From this page we can add/sort <em>modules</em> in the group, change the wallpaper, rename or
-delete it. </p>
+delete it.</p>
 <div class="media-container" data-ui-load="@lib/controllers/view_pager"
     data-o-slide="true" data-o-paging="true">
     <img self="size-medium" src="images/docs/configure_menu.jpg">
@@ -18,14 +18,15 @@ delete it. </p>
 <h2 id="configuringwidgets">Configuring widgets</h2>
 <p>We call <em>widget</em>, that part of the user interface through which a module is presented
 and through which we can interact with it.</p>
-<p>Depending on the type, a different widget will be used to display each <em>module</em>.
-In every case we can configure a <em>module</em> by pressing the <strong><i class="material-icons">settings</i></strong>
-(settings) button in the upper right corner of its widget. This will popup a dialog for configuring its options.</p>
+<p>Depending on the type, a specific widget will be used to display a <em>module</em> (eg. all modules of type "Light" will be presented using the same kind of widget).
+Most widgets will also have a <strong><i class="material-icons">settings</i></strong> (settings)
+button in the upper right corner that can be used to configure the module.
+Pressing this button a popup dialog will be opened.</p>
 <p>Let's now see how to configure each of them.</p>
 <h3 id="weatherforecast">Weather forecast</h3>
 <p>HomeGenie can integrate also external services and make the data available to the system
 so that it can be displayed and/or used for automating tasks.</p>
-<p>A good example is the Weather widget that is based on <a href="http://www.wunderground.com">Weather Underground</a> service. </p>
+<p>A good example is the Weather widget that is based on <a href="http://www.wunderground.com">Weather Underground</a> service.</p>
 <p>To enable this widget it is required to enter a <em>service API key</em> that can be obtained by registering to the service as
 described in its option popup (see picture below).</p>
 <div class="media-container">
@@ -38,7 +39,7 @@ For example to open or close motorized window shades on behalf of the sun positi
 and the weather conditions (cloudy or not), or turning off the garden irrigation system
 if it's raining outside.</p>
 <h3 id="securityalarmsystem">Security alarm system</h3>
-<p>If your setup includes smart devices such as motion/smoke/co2/etc.. detectors, 
+<p>If your setup includes smart devices such as motion/smoke/co2/etc.. detectors,
 door/window sensors, then you can use them with the <em>Security Alarm System</em> widget.</p>
 <p>The following video explain how to use this feature.</p>
 <div class="content-margin" align="center">

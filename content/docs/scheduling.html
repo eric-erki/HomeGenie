@@ -1,5 +1,5 @@
 <h2 id="scheduling">Scheduling</h2>
-<p>With the <em>Scheduler</em>, which is available from the <em>Configure</em> menu, 
+<p>With the <em>Scheduler</em>, which is available from the <em>Configure</em> menu,
 <em>HomeGenie</em> can be programmed to take some actions on time based occurrences.</p>
 <p>The main <em>Scheduler</em> page is the calendar view that shows programmed events
 for the day. By clicking the date text, we can choose a different
@@ -11,20 +11,20 @@ date so to display programmed events for any given day.</p>
 where the event occurs. If it's grayed out it means that the occurrence is
 in the future and has not occurred yet. Passing the pointer over it
 will display a popup with a summary of the event and its last/next
-occurrence (see above picture). </p>
+occurrence (see above picture).</p>
 <p>It can also have some indicators on the right:</p>
-<p>&nbsp;&nbsp; <i class="material-icons bigger">check_box</i> number of modules bound to the event</p>
-<p>&nbsp;&nbsp; <i class="material-icons bigger">code</i> a script is associated with the event</p>
+<p>&nbsp;&nbsp; <i class="material-icons bigger">check_box</i> number of modules bound to the scheduled event</p>
+<p>&nbsp;&nbsp; <i class="material-icons bigger">code</i> a script is associated with the scheduled event</p>
 <h3 id="croneventwizard">Cron event Wizard</h3>
-<p>When adding or modifying an event, the <em>Cron event Wizard</em> window will
-be shown, where we can edit occurrence, bound modules and associated script.</p>
-<p>An event should at least define the occurrences, while modules and script are
+<p>When adding or modifying a scheduled event, the <em>Cron event Wizard</em> window will
+be shown, there we can edit occurrences, bound modules and associated script to run.</p>
+<p>An event should at least define the occurrences, while bound modules and script are
 optional.</p>
 <div class="media-container">
     <img self="size-medium" title="Scheduler - Cron Event Wizard" src="images/docs/scheduler_wizard_01.jpg">
 </div>
 <h4 id="occurrence">Occurrence</h4>
-<p>In the <em>occurrence</em> panel of the wizard we can define the main data of the event. </p>
+<p>From the <em>occurrence</em> panel of the scheduler wizard we can define the main data of the event.</p>
 <p><strong>Name and description</strong></p>
 <p>The name of the event must not contain any white space or special characters.
 The only allowed non alpha-numeric character is the dot <code>.</code>, that is used to
@@ -40,10 +40,10 @@ shown in the first picture early in this page.</p>
 <p>The <em>description</em> field can instead contains a verbose description of the event.
 Notice that once an event is created it's name cannot be modified.</p>
 <p><strong>Event type</strong></p>
-<p>There are three types of event: </p>
+<p>There are three types of event:</p>
 <ul>
-<li><strong>standard</strong>: can be defined by one or more occurrence of time and/or time range
-and can optionally be limited to certain days or months.  </li>
+<li><strong>standard</strong>: can be defined by one or more occurrence of time and/or time ranges
+and can optionally be limited to certain days or months.</li>
 <li><strong>date period</strong>: same as <em>standard</em> event but it will only be valid during a
 given period of the year.</li>
 <li><strong>custom cron expression</strong>: can be defined with textual expressions that are described
@@ -54,10 +54,10 @@ can implement complex set of occurrences.</li>
 <p>In the modules panel we can select modules that are bound to the event and
 that can be operated by the associated script.</p>
 <h4 id="script">Script</h4>
-<p>The script code entered in this panel, will be executed on every occurrence of the
-event. The language used is <em>Javascript</em> and all HomeGenie <em>helper classes</em> 
-accessible to automation programs can also be used here with the
-following objects:</p>
+<p>The script code entered in this panel, will be executed on every occurrence of an
+event. The language used is <em>JavaScript</em> and all HomeGenie Server <em>Helper Classes</em>,
+accessible to standard automation programs, are also exposed to the script through
+the following objects:</p>
 <ul>
 <li><code>$$.modules</code> - ModulesHelper</li>
 <li><code>$$.program</code> - ProgramHelper</li>
@@ -70,18 +70,18 @@ following objects:</p>
 <li><code>$$.knx</code> - KnxHelper</li>
 <li><code>$$.scheduler</code> - SchedulerHelper</li>
 </ul>
-<p>See <a href="api/ape/annotated.html" target="_blank">Helper Class documentation</a> for a detailed description.</p>
+<p>See <a href="../../api/ape/annotated.html">Helper Classes</a> documentation for a detailed description.</p>
 <p>In addition to that, an event script can use some special objects/methods:</p>
 <ul>
-<li><code>$$.boundModules</code>: 
-a <em><a href="http://localhost:63342/HomeGenie-site/api/ape/a00004.html">ModulesHelper</a></em> object containing modules selected in the <em>Modules</em> panel for the event.
+<li><code>$$.boundModules</code>:
+a <em><a href="../../api/ape/a00004.html">ModulesHelper</a></em> object containing modules selected in the <em>Modules</em> panel for the event.
 For example for turning on all bound modules we'll use: <code>$$.boundModules.on()</code>.</li>
-<li><code>$$.onPrevious()</code>: 
+<li><code>$$.onPrevious()</code>:
 boolean value indicating if the event was scheduled in the previous minute.</li>
-<li><code>$$.onNext()</code>: 
+<li><code>$$.onNext()</code>:
 boolean value indicating if the event will be also scheduled in the next minute.</li>
-<li><code>$$.data(k[,v])</code>: 
-function to store data for this event and that will be persisted across each occurrence.</li>
+<li><code>$$.data(k[,v])</code>:
+function to store data for this event and that will be available to the script across each occurrence.</li>
 <li><code>$$.onUpdate(function(m,p))</code>:
 used to set an handler for listening to modules events. Once registered the handler will be called even
 if the event is not scheduled.</li>

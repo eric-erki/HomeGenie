@@ -1,7 +1,7 @@
 ## Initial setup
 
-After [HomeGenie installation](#/get_started), you can access the dashboard and the configuration
-pages by entering in your web browser the address of the computer where *HG* is installed:
+After [installing HomeGenie Server](#/get_started), you can access the dashboard and the configuration
+pages by entering in your web browser the address of the computer where *HG Server* is installed:
 
 <div class="media-container">
     <img self="size-medium" title="Administration page url" src="images/docs/admin_page_url.jpg">
