@@ -18,7 +18,7 @@ them to any media player/renderer in the local network.
 This can be done either from the web interface or the mobile client.
 
 DLNA/UPnP commands can also be stored in a script with *[Record Macro](#/docs/scenarios)*
-functionality or manually by using *[UPnP API](./api/mig/mig_api_upnp.html)*
+functionality or manually by using *[UPnP API](api/mig/mig_api_upnp.html)*
 and then recalled within a *[scenario](#/docs/scenarios)*.
 
 <div class="media-container" data-ui-load="@lib/controllers/view_pager"
