@@ -5,8 +5,10 @@ var indexSectionsWithContent =
   2: "h",
   3: "acdefghimnoprstuw",
   4: "tv",
-  5: "acdefghilmnpstuv",
-  6: "e"
+  5: "c",
+  6: "ct",
+  7: "acdefghilmnpstuv",
+  8: "e"
 };
 
 var indexSectionNames =
@@ -16,8 +18,10 @@ var indexSectionNames =
   2: "namespaces",
   3: "functions",
   4: "variables",
-  5: "properties",
-  6: "pages"
+  5: "enums",
+  6: "enumvalues",
+  7: "properties",
+  8: "pages"
 };
 
 var indexSectionLabels =
@@ -27,7 +31,9 @@ var indexSectionLabels =
   2: "Namespaces",
   3: "Functions",
   4: "Variables",
-  5: "Properties",
-  6: "Pages"
+  5: "Enumerations",
+  6: "Enumerator",
+  7: "Properties",
+  8: "Pages"
 };
 

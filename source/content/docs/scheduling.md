@@ -100,7 +100,7 @@ See [Helper Classes](api/ape/annotated.html) documentation for a detailed descri
 In addition to that, an event script can use some special objects/methods:
 
 - `$$.boundModules`:
-a *[ModulesHelper](api/ape/a00004.html)* object containing modules selected in the *Modules* panel for the event.
+a *[ModulesHelper](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html)* object containing modules selected in the *Modules* panel for the event.
 For example for turning on all bound modules we'll use: `$$.boundModules.on()`.
 - `$$.onPrevious()`:
 boolean value indicating if the event was scheduled in the previous minute.

@@ -98,7 +98,7 @@ When this options is enabled, the device will react to any of the following even
   the device it will turn **on** if luminance from the specified sensor is below a certain value
 - *Timeout*:
   <i class="fa fa-long-arrow-right"></i>
-  the device it will turn **off** if no events is detected for more than the specified amount of time (seconds)
+  the device it will turn **off** if no event is detected for more than the specified amount of time (seconds)
 
 <div class="media-container">
     <img self="size-medium" title="Widget Features/Options" src="images/docs/widget_options_01.jpg">

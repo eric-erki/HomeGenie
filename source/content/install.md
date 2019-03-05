@@ -9,34 +9,33 @@ release:
 
 <div self="size-small center" layout="rows top-spread">
 
-<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/homegenie_{{ release.version }}_all.deb" title="Download HomeGenie v{{ release.version }} for Debian Linux" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
-<img src="images/logos/luxicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
-<div layout="column center-spread">
-<h3>Linux .deb</h3>
-<span>Ubuntu / Debian derivatives</span>
-</div>
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/homegenie_{{ release.version }}_all.deb" title="Download HomeGenie v{{ release.version }} for Debian Linux" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+    <img src="images/logos/luxicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
+    <div layout="column center-spread">
+    <h3>Linux .deb</h3>
+    <span>Ubuntu / Debian derivatives</span>
+    </div>
 </a>
 
-<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/homegenie_{{ release.version }}.tgz" title="Download HomeGenie v{{ release.version }} platform agnostic archive" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
-<img src="images/logos/macicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
-<div layout="column center-spread">
-<h3>Platform agnostic .tgz</h3>
-<span>OSX / Other Mono/.NET compatibles</span>
-</div>
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/HomeGenie_v{{ release.version }}.exe" title="Download HomeGenie v{{ release.version }} for Windows" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+    <img src="images/logos/winicon.png" alt="" style="margin-right:10px" width="82" align="left">
+    <div layout="column center-spread">
+    <h3>Windows Installer</h3>
+    <span>Win7 / Win8 / Win10</span>
+    </div>
 </a>
 
-<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/HomeGenie_v{{ release.version }}.exe" title="Download HomeGenie v{{ release.version }} for Windows" style="height:120px;margin:8px" class="mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
-<img src="images/logos/winicon.png" alt="" style="margin-right:10px" width="82" align="left">
-<div layout="column center-spread">
-<h3>Windows Installer</h3>
-<span>Vista / Win7 / Win8 / Win10</span>
-</div>
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v{{ release.version }}/homegenie_{{ release.version }}.tgz" title="Download HomeGenie v{{ release.version }} platform agnostic archive" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+    <img src="images/logos/macicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
+    <div layout="column center-spread">
+    <h3>Platform agnostic .tgz</h3>
+    <span>macOS / Others</span>
+    </div>
 </a>
 
 </div>
 
 <br clear="all"/>
-
 
 ## Install instructions
 
@@ -80,9 +79,12 @@ sudo apt-get install arduino-mk empty-expect
 **Note** *HomeGenie requires mono runtime version 4.6.2 or later.*
 
 
-### Mac OS X and other UNIX systems
+### macOS and other UNIX systems
 
-HomeGenie can also be installed on other systems (eg. Mac OS X and other UNIX based systems) by following the procedure described below.
+HomeGenie can also be installed on other systems (eg. macOS and other UNIX based systems)
+by following the procedure described below. See
+<a href="https://www.mono-project.com/docs/about-mono/supported-platforms/">Mono supported platforms</a>
+for a complete list of compatible systems.
 
 #### Installing prerequisites
 

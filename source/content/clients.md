@@ -1,6 +1,6 @@
 ## HomeGenie web user interface
 
-The default server installation includes a web user interface that can be used either from a desktop PC or a mobile client such as Android or IOS device.
+The default server installation includes a web user interface that can be used either from a desktop PC or a mobile client such as Android or iOS device.
 This is mainly intended for administration purposes to configure and access all aspect of the system.
 
 <div class="media-container">
