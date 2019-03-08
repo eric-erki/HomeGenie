@@ -39,10 +39,10 @@ Let's now see how to configure each of them.
 HomeGenie can integrate also external services and make the data available to the system
 so that it can be displayed and/or used for automating tasks.
 
-A good example is the Weather widget that is based on [Weather Underground](http://www.wunderground.com) service.
+A good example is the Weather widget that is based on [OpenWeatherMap](https://openweathermap.org) service.
 
-To enable this widget it is required to enter a *service API key* that can be obtained by registering to the service as
-described in its option popup (see picture below).
+To enable this widget the user is required to enter a *service API key* (APPID) that can be obtained by registering
+on the *OpenWeatherMap* website.
 
 <div class="media-container">
     <img self="size-medium" title="Weather configuration dialog" src="images/docs/weather_options_01.jpg">

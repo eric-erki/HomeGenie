@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
+    "revision": "48498d74785213308b7591d2e20059d6"
   },
   {
     "url": "api/ape/annotated.html",
@@ -1013,7 +1013,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/docs/configure.html",
-    "revision": "1b72892637b9e64409879ff08a6d21f2"
+    "revision": "708a9078cfe9b0236f7c5210f6020d0e"
   },
   {
     "url": "content/docs/interconnect.html",
@@ -1041,7 +1041,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "c571a6b650f20ecc04c02fcc700987e3"
+    "revision": "9fef23e28583d03c942dc9c2807e8fbc"
   },
   {
     "url": "content/raspberry.html",
@@ -1077,7 +1077,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "67b4022cc412874913aee43849323bbb"
+    "revision": "7d5de97b046fc33e6613e23f1a9db82c"
   },
   {
     "url": "index.js",
@@ -1085,19 +1085,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "60a2d341769bbf72ae8cdba9a59ba2b6"
+    "revision": "67802f7552c952e96dcec33070953444"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "4dfad3cb6c678cb2e5aaedd81ebe8b46"
+    "revision": "daf3014760a1ad146d1552cda2b48ab3"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "60f3ee61721d5bbac709fad9c239f2ac"
+    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "45d2af18d4499a5d70c7bdfc932f9bbf"
+    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1141,7 +1141,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "d1c5d94d44d17e5619a1404eab20f862"
+    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2265,7 +2265,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "a69fc4d22db19a821f0a5580f0870729"
+    "revision": "c1fcb86861a35927db9762b393f0170c"
   },
   {
     "url": "workbox-sw.js",
@@ -2413,11 +2413,11 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "c4ba576f02ddb3b4d02af5e5a4d40600"
+    "revision": "3f71d5abba7bdd1b5ac065c792714819"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "456e71ef6bdb4edd343369a98297b6fb"
+    "revision": "21b36318ea414faa3dbc3821e977bc25"
   },
   {
     "url": "images/docs/configure_menu.jpg",
@@ -2425,15 +2425,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "a81705fcb69396540d8539c2c5fd7078"
+    "revision": "9f768b1a778e1110053c112b22c7553d"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "0d07a1aa7b8600ff832761b5f6ff927e"
+    "revision": "c1b3aa62205898f3d1157ce2b21ae663"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "9437024dd61bd7c8341eaca77e0964fe"
+    "revision": "45511dbbd1733c184f33cf72a2604fa5"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2558,6 +2558,66 @@ self.__precacheManifest = [
   {
     "url": "images/docs/villa.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/weather_options_01.jpg",
+    "revision": "3f4b7eba62dea084fd2d79b6cf96abd9"
+  },
+  {
+    "url": "images/docs/weather_options_01.png",
+    "revision": "db3d80c6134a72b493337643705fcb1d"
+  },
+  {
+    "url": "images/docs/widget_options_01.gif",
+    "revision": "0692ef6ad193c7e2ad272c4249df3ced"
+  },
+  {
+    "url": "images/docs/widget_options_01.jpg",
+    "revision": "7cfd2dfeb25b304b74148dbe8e965de8"
+  },
+  {
+    "url": "images/docs/widget_options_01.png",
+    "revision": "a7e95c12db0544c57a32c3b7127a59df"
+  },
+  {
+    "url": "images/docs/widgets_dimmer_type.jpg",
+    "revision": "ed1014ed6aa40db3091bacd143ec519d"
+  },
+  {
+    "url": "images/docs/widgets_dimmer_type.png",
+    "revision": "a7a5e18055656fc2edc4ee1a42f9331d"
+  },
+  {
+    "url": "images/docs/widgets_editor_html.jpg",
+    "revision": "de93b3dbed14cba3cc2acad1566ea3af"
+  },
+  {
+    "url": "images/docs/widgets_editor_html.png",
+    "revision": "f7374c222450e1c7fc4eaefe7d2c5701"
+  },
+  {
+    "url": "images/docs/widgets_editor_js.jpg",
+    "revision": "662186a3f097d6d3de41420baf306ba3"
+  },
+  {
+    "url": "images/docs/widgets_editor_js.png",
+    "revision": "696c3ab3b786d9e31568c500d5bcb7a0"
+  },
+  {
+    "url": "images/docs/widgets_editor_list.jpg",
+    "revision": "1bd328b365d078010e152f61d3479842"
+  },
+  {
+    "url": "images/docs/widgets_editor_list.png",
+    "revision": "331a36f2871251798a177a4067f012b0"
+  },
+  {
+    "url": "images/docs/widgets_editor_params.jpg",
+    "revision": "2f292ca77f084da43b2303360943c2b4"
+  },
+  {
+    "url": "images/docs/widgets_editor_params.png",
+    "revision": "c1711c37d88e75af2abb7488b6fc4db1"
   },
   {
     "url": "images/download-button.png",
@@ -2782,6 +2842,10 @@ self.__precacheManifest = [
   {
     "url": "images/logos/android_logo.png",
     "revision": "9d258cb09c821961e092b9b459399d9e"
+  },
+  {
+    "url": "images/logos/bpilogo.jpg",
+    "revision": "bb94ae185fe02e7f0058da149964991a"
   },
   {
     "url": "images/logos/bug.png",
