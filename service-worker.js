@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "48498d74785213308b7591d2e20059d6"
+    "revision": "dc5a55cbee62c948b9b157f39a1d51d2"
   },
   {
     "url": "api/ape/annotated.html",
@@ -1041,7 +1041,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "acd1a0e9d651e76cc303e046d0e653f2"
+    "revision": "450f3539a657bf548c0ca09f6afeb2ed"
   },
   {
     "url": "content/raspberry.html",
@@ -1077,7 +1077,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "7d5de97b046fc33e6613e23f1a9db82c"
+    "revision": "e0507d88a10930bc72e7062bc0c7215a"
   },
   {
     "url": "index.js",
@@ -2265,7 +2265,7 @@ self.__precacheManifest = [
   },
   {
     "url": "walkthrough.html",
-    "revision": "c1fcb86861a35927db9762b393f0170c"
+    "revision": "a69fc4d22db19a821f0a5580f0870729"
   },
   {
     "url": "workbox-sw.js",
